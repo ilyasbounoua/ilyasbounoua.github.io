@@ -9,37 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Formation
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **École Centrale de Nantes (France)** — Cursus ingénieur généraliste (2023–2026)  
+  * 2e année : option **DATASIM** – Données, analyse, traitement du signal et de l'image  
+  * Semestre 8 : échange Erasmus – Master Informatique, **Université Catholique de Louvain**  
+  * 3e année : option **INFOSI** – Informatique pour les systèmes d’information  
 
-Work experience
+* **Lycée Mohammed VI d’Excellence (Maroc)** — Classes Préparatoires Technologie et Sciences Industrielles (2021–2023)  
+
+* **Baccalauréat Scientifique (Maroc)** — Filière Sciences et Technologies Électriques, Mention Très Bien (2020–2021)  
+
+Expériences professionnelles
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Août 2024 – Janv. 2025 : Équipier polyvalent – ANTOL (Nantes, France)**  
+  * Service client, gestion du stress, travail en équipe  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Juin – Juil. 2024 : Stagiaire d’observation – HWM Maroc (Casablanca, Maroc)**  
+  * Suivi des interactions clients et participation aux réunions interservices  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* **Janv. – Juin 2024 : Projet Étudiant d’Entreprise – ETPO (Nantes, France)**  
+  * Contribution à la recherche sur les critères de fracture des roches  
+  * Coordination de la communication au sein de l’équipe projet  
+
+Compétences
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programmation :** Python, C++ (bases)  
+* **Bases de données :** notions de SQL  
+* **Outils :** Microsoft Office, GanttProject, Fritzing (conception schématique)  
+* **Langues :**  
+  * Arabe – langue maternelle  
+  * Français – niveau courant  
+  * Anglais – niveau courant  
+  * Chinois – notions  
+* **Atouts :** adaptabilité, esprit d’équipe, compétences organisationnelles, gestion du stress, rapidité d’exécution  
 
 Publications
 ======
@@ -59,6 +62,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Centres d’intérêt
 ======
-* Currently signed in to 43 different slack teams
+* Volleyball — 5 ans d’expérience, membre de l’équipe ECN  
+* Jeux de société — pratique hebdomadaire en club  
