@@ -11,4 +11,22 @@ paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-The contents above will be part of a list of projects, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When projects are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Le projet **OFC (Organisateur des feux de circulation)** vise à optimiser la gestion des feux tricolores urbains.  
+En utilisant une caméra montée sur un boîtier rotatif, les voies d’un carrefour sont analysées afin de compter les véhicules.  
+Une carte Raspberry Pi traite ces informations et, via un algorithme, attribue la priorité à la voie la plus chargée tout en garantissant une alternance minimale.  
+Les feux sont commandés par une carte Arduino communiquant par modules nRF24L01.
+
+### Objectifs principaux
+1. Choisir et modéliser le moteur assurant la rotation du boîtier.  
+2. Asservir ce moteur en position pour orienter la caméra avec précision.  
+3. Développer un algorithme d'analyse d'image et de comparaison du trafic.  
+4. Déterminer un ordre de priorité automatique et éviter les blocages.  
+5. Concevoir le programme Arduino pour commander les feux tricolores.
+
+### Réalisation
+- Études théoriques : modélisation, dimensionnement, asservissement PID.  
+- Développement de sous-programmes pour la détection et le comptage des véhicules.  
+- Conception et tests du prototype intégrant caméra, Raspberry Pi, Arduino et modules de communication sans fil.  
+- Validation expérimentale du système et comparaison simulation/réalité.
+
+Ce travail s’inscrit dans le domaine des **Sciences Industrielles (Automatique et Génie Électrique)** et montre qu’une signalisation routière intelligente peut réduire les embouteillages tout en améliorant la sécurité et l’efficacité énergétique.
