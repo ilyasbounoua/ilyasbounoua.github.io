@@ -1,6 +1,6 @@
 ---
 title: "Paper Title Number 4"
-collection: publications
+collection: projects
 category: manuscripts
 permalink: /publication/2025-SamWeight
 excerpt: 'This paper is about fixing template issue #693.'
