@@ -11,8 +11,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Expériences"
+    url: /experiences/    
+
+  - title: "Parcours académique"
+    url: /parcours/  
 
   #- title: "Teaching"
   #  url: /teaching/    
