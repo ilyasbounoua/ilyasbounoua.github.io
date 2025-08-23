@@ -79,13 +79,13 @@ author:
   zhihu            : # Username
 
 # project Category - The following the list of project categories and their headings
-#project_category:
-#  books:
-#    title: 'Books'
-#  manuscripts:
-#    title: 'Projects'    
-#  conferences:
-#    title: 'Conference Papers'
+project_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Projects'    
+  conferences:
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
