@@ -63,16 +63,6 @@ redirect_from:
 
 ---
 
-## Enseignement
-
-<ul>
-  {% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
-
----
-
 ## Centres d’intérêt
 
 - Volleyball — 5 ans d’expérience, membre de l’équipe ECN  
