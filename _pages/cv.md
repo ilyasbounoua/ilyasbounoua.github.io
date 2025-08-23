@@ -56,7 +56,7 @@ redirect_from:
 ## Projets
 
 <ul>
-  {% for post in site.publications reversed %}
+  {% for post in site.projects reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
 </ul>
