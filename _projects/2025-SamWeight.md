@@ -4,9 +4,8 @@ collection: projects
 category: manuscripts
 permalink: /project/2025-SamWeight
 excerpt: "Application de techniques de pondération d'échantillons et d'AUC Reshaping pour améliorer la sensibilité à haute spécificité en classification mammographique."
-date: 2025-02-17
+date: 2025-02-23
 venue: 'École Centrale de Nantes & Hera-Mi'
-paperurl: ""
 citation: "Bouftini, I.; Bounoua, I.; Bouchez-Delotte, Sacha. (2025). &quot;SamWeight : Optimisation de la détection du cancer du sein par AUC Reshaping.&quot; <i>Projet de recherche, École Centrale de Nantes & Hera-Mi</i>."
 ---
 
@@ -48,7 +47,7 @@ n, & \text{si } y_i = 1 \text{ et } p_i < \theta_{\mathrm{max}}, \\
 $$
 
 où :
-- $y_i \in \{0,1\}$ est l’étiquette vraie, $p_i$ la probabilité prédite ;  
+- \(y_i \in \{0,1\}\) est l’étiquette vraie, \(p_i\) la probabilité prédite ;  
 - $\theta_{\mathrm{max}}$ est le seuil de haute spécificité (ex. 0,95 — 0,98) ;  
 - $n$ est le facteur de boosting réglable.
 
