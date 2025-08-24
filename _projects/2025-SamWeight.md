@@ -4,7 +4,7 @@ collection: projects
 category: manuscripts
 permalink: /project/2025-SamWeight
 excerpt: 'This paper is about fixing template issue #693.'
-date: 2025-02
+date: 2025-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: 'http://ilyasbounoua.github.io/files/paper3.pdf'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
