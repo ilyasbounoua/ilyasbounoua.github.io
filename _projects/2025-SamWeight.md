@@ -47,7 +47,7 @@ n, & \text{si } y_i = 1 \text{ et } p_i < \theta_{\mathrm{max}}, \\
 $$
 
 où :
-- \(y_i \in \{0,1\}\) est l’étiquette vraie, \(p_i\) la probabilité prédite ;  
+- $$y_i \in \{0,1\}$$ est l’étiquette vraie, $$p_i$$ la probabilité prédite ;  
 - $\theta_{\mathrm{max}}$ est le seuil de haute spécificité (ex. 0,95 — 0,98) ;  
 - $n$ est le facteur de boosting réglable.
 
