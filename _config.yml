@@ -78,23 +78,24 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+# parcour Category - The following the list of project categories and their headings
+parcour_category:
+  académique:
+    title: 'Parcours académiques'    
+  
 # experience Category - The following the list of project categories and their headings
 experience_category:
-  exp:
-    title: 'Expériences professionnelles'
-  manuscripts:
-    title: 'Projects'    
-  conferences:
-    title: 'Conference Papers'
+  stages:
+    title: 'Expériences professionnelles'  
+  postes:
+    title: 'Activités salariée'
 
 # project Category - The following the list of project categories and their headings
 project_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Projects'    
-  conferences:
-    title: 'Conference Papers'
+  personel:
+    title: 'Projects personels'    
+  académique:
+    title: 'Projets académiques'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -232,7 +233,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  parcours:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -260,10 +261,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _parcours
   - scope:
       path: ""
-      type: teaching
+      type: parcours
     values:
       layout: single
       author_profile: true

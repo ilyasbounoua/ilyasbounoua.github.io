@@ -1,7 +1,7 @@
 ---
 title: "SamWeight : Optimisation de la détection du cancer du sein par AUC Reshaping"
 collection: projects
-category: manuscripts
+category: académique
 permalink: /project/2024-SamWeight
 excerpt: "Application de techniques de pondération d'échantillons et d'AUC Reshaping pour améliorer la sensibilité à haute spécificité en classification mammographique."
 date: 2025-01-21

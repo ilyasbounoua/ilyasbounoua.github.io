@@ -73,7 +73,7 @@ for row, item in publications.iterrows():
     md = "---\ntitle: \""   + item.title + '"\n'
 
     # TODO Update to use the category assigned in the TSV file
-    md += """collection: manuscripts"""
+    md += """collection: académique"""
     
     md += """\npermalink: /publication/""" + html_filename
     
