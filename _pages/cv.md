@@ -39,6 +39,16 @@ redirect_from:
 
 ---
 
+## Projets
+
+<ul>
+  {% for post in site.projects reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
+
+---
+
 ## Compétences
 
 - **Programmation :** Python, C++ (bases)  
@@ -50,16 +60,6 @@ redirect_from:
   - Anglais – courant  
   - Chinois – notions  
 - **Atouts :** adaptabilité, esprit d’équipe, organisation, gestion du stress, rapidité d’exécution  
-
----
-
-## Projets
-
-<ul>
-  {% for post in site.projects reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
 
 ---
 
