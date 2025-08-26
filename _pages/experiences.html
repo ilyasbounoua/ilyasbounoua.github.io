@@ -5,12 +5,30 @@ permalink: /experiences/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% for post in site.experiences reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% include base_path %}
+
+<!-- New style rendering if project categories are defined -->
+{% if site.project_category %}
+  {% for category in site.project_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.experiences reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <!--<h2>{{ category[1].title }}</h2><hr />-->
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.experiences reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+

@@ -80,8 +80,8 @@ author:
 
 # project Category - The following the list of project categories and their headings
 project_category:
-  books:
-    title: 'Books'
+  expériences:
+    title: 'Expériences professionnelles'
   manuscripts:
     title: 'Projects'    
   conferences:
