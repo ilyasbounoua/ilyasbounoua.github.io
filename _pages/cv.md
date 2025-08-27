@@ -37,11 +37,6 @@ redirect_from:
   *Juin – Juil. 2024*  
   - Suivi des interactions clients et participation aux réunions interservices  
 
-- **Projet Étudiant d’Entreprise – ETPO (Nantes, France)**  
-  *Janv. – Juin 2024*  
-  - Recherche sur les critères de fracture des roches  
-  - Coordination de la communication au sein de l’équipe projet  
-
 ---
 
 ## Projets

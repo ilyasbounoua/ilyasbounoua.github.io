@@ -45,10 +45,10 @@
           <p class="page__date">
             <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Date:" }}</strong>
             <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">
-              {{ post.date | default: '1900-01-01' | date: "%B %d, %Y" }}
+              {{ post.date | default: '1900-01-01' | date: "%d/%m/%Y" }}
             </time>{% if post.end_date %} - 
             <time datetime="{{ post.end_date | default: '1900-01-01' | date_to_xmlschema }}">
-              {{ post.end_date | default: '1900-01-01' | date: "%B %d, %Y" }}
+              {{ post.end_date | default: '1900-01-01' | date: "%d/%m/%Y" }}
             </time>{% endif %}
           </p>
         {% endif %}
