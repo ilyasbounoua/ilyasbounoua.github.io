@@ -80,15 +80,15 @@ author:
 
 # parcour Category - The following the list of project categories and their headings
 parcour_category:
-  Enseignement secondaire:
-    title: 'Enseignement secondaire'
-  CPGE:
-    title: 'Classes préparatoires'
-  Université et grandes écoles:
-    title: 'Université et grandes écoles'
   Formations complémentaires:
     title: 'Formations complémentaires'  
-  
+  Université et grandes écoles:
+    title: 'Université et grandes écoles'
+  CPGE:
+    title: 'Classes préparatoires'
+  Enseignement secondaire:
+    title: 'Enseignement secondaire'
+
 # experience Category - The following the list of project categories and their headings
 experience_category:
   stages:
