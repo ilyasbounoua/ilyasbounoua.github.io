@@ -27,7 +27,8 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.parcours %}
+  {% assign parcours_sorted = site.parcours | sort: "date" | reverse %}
+  {% for post in parcours_sorted %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

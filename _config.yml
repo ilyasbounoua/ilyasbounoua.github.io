@@ -241,7 +241,6 @@ collections:
     permalink: /:collection/:path/
   parcours:
     output: true
-    sort_by: date
     permalink: /:collection/:path/
   talks:
     output: true
