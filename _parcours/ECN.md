@@ -5,7 +5,7 @@ category: Université et grandes écoles
 permalink: /parcour/ECN
 excerpt: "Cursus ingénieur généraliste à l’École Centrale de Nantes : spécialisation DATASIM (2ᵉ année), échange international (Semestre 8) à l'UCLouvain, puis approfondissement INFOSI (3ᵉ année)."
 date: 2023-09-01
-date_end: 2026-09-30
+end_date: 2026-09-30
 venue: 'École Centrale de Nantes (France) - Université Catholique de Louvain (Belgique)'
 paperurl: 'http://ilyasbounoua.github.io/files/DATASIM.pdf'
 bibtexurl: 'http://ilyasbounoua.github.io/files/INFOSI.pdf'

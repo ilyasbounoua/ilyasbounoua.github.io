@@ -5,7 +5,7 @@ category: CPGE
 permalink: /parcour/CPGE
 excerpt: "Classes Préparatoires Technologie et Sciences Industrielles au Lycée Mohammed VI d’Excellence : formation intensive en sciences et techniques, projets appliqués et préparation aux concours d'entrée aux écoles d'ingénieurs."
 date: 2021-08-24
-date_end: 2023-02-20
+end_date: 2023-02-20
 venue: 'Lycée Mohammed VI d’Excellence (Maroc)'
 
 ---
