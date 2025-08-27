@@ -1,35 +1,81 @@
 ---
-title: "Étude du dimensionnement d'un trépan"
+title: "Études universitaires"
 collection: parcours
 category: Université et grandes écoles
 permalink: /parcour/ECN
-excerpt: "Développement d'une feuille de calcul pour estimer l'avancement du forage par coup de trépan, en généralisant le modèle à tous types de roches."
+excerpt: "Cursus ingénieur généraliste à l’École Centrale de Nantes : spécialisation DATASIM (2ᵉ année), échange international (Semestre 8) à l'UCLouvain, puis approfondissement INFOSI (3ᵉ année)."
 date: 2023-09-01
 date_end: 2026-09-30
-venue: 'Projet Étudiant-Entreprise – Groupe ETPO'
+venue: 'École Centrale de Nantes (France) - Université Catholique de Louvain (Belgique)'
 paperurl: 'http://ilyasbounoua.github.io/files/DATASIM.pdf'
 bibtexurl: 'http://ilyasbounoua.github.io/files/INFOSI.pdf'
 ---
+# Parcours universitaire — École Centrale de Nantes / UCLouvain
 
-Le projet **P2E n°13** s'inscrit dans une collaboration avec le **Groupe ETPO**, spécialisé dans les travaux maritimes et industriels.  
-Il a pour objectif de modéliser scientifiquement l’opération de **trépanage** — un procédé permettant de fracturer la roche pour implanter des pieux — et de développer un **tableur de calcul** pour estimer la progression du forage par coup de trépan.
+Ce document synthétise mon parcours d'ingénieur (2023–2026) : spécialisation **DATASIM** en 2ᵉ année, semestre d'échange international (S8) au **Master Informatique** de l'Université catholique de Louvain, puis option **INFOSI** en 3ᵉ année.  
+Les documents officiels de mes options (DATASIM / INFOSI) sont disponibles via les liens en en-tête.
 
-### Objectifs principaux
-1. Reprendre les résultats du P2E 2022 et les généraliser à **tous types de roches**.  
-2. Intégrer les paramètres clés : type de roche, diamètre du pieu, poids et hauteur de chute du trépan.  
-3. Affiner la précision du modèle à l’aide du **critère de Hoek-Brown** et d’une **approche énergétique**.  
-4. Déterminer le rendement du forage par heure en fonction des paramètres mécaniques et du treuil.  
-5. Produire une **documentation complète** (rapport, manuel utilisateur) pour faciliter l’usage de l’outil.
+---
 
-### Réalisation
-- **Analyse théorique** : étude des équations différentielles, modélisation du sol comme système amorti, validation des hypothèses.  
-- **Développement du tableur** : correction des équations issues du P2E précédent, ajout de paramètres pour la poussée d’Archimède et la viscosité, résolution graphique pour déterminer la durée de chute.  
-- **Comparaison avec la réalité** : application aux données de chantier (Saint-Nazaire, Concarneau) et confrontation des résultats avec les estimations de l’entreprise.  
-- **Organisation du projet** : suivi rigoureux avec réunions régulières (tuteur et entreprise), partage des tâches, mise à jour du calendrier via Trello et Google Drive.
+## 1) DATASIM — 2ᵉ année  
+**Domaines** : traitement du signal et de l'image, modélisation statistique, méthodes numériques et apprentissage appliqué.
+
+**Objectifs pédagogiques**
+- Maîtriser les concepts fondamentaux du traitement du signal et de l’image (transformées, filtrage, restauration).  
+- Acquérir des méthodes statistiques pour la modélisation et l'inférence sur données réelles.  
+- Appliquer l'apprentissage supervisé et non supervisé à des problèmes de classification et d'estimation.
+
+**Projets & travaux marquants**
+- Réalisation de TP et projets appliqués en traitement d'image (prétraitement, segmentation, évaluation).  
+- Développement d'outils d'analyse et de visualisation pour jeux de données multidimensionnels.  
+- Rédaction de rapports techniques et présentation orale des résultats en équipe.
+
+**Compétences acquises**
+- Prétraitement et analyse de données, pipelines d'expérimentation ML, validation et évaluation de modèles, communication technique.
+
+---
+
+## 2) Semestre 8 — Échange (UCLouvain)  
+**Contexte** : mobilité académique au sein d'un Master Informatique, orientation renforcée vers la data, l'algorithmique et le calcul scientifique.
+
+**Objectifs pédagogiques**
+- Approfondir des méthodes avancées en apprentissage, fouille de données et paradigmes de programmation.  
+- Se confronter à des approches de résolution de problèmes complexes (optimisation, programmation déclarative et contrainte).  
+- Renforcer la pratique du développement scientifique (programmation pour le calcul numérique et simulation).
+
+**Expérience & bénéfices**
+- Immersion dans un environnement international favorisant l'autonomie, l'adaptabilité et le travail en anglais/français.  
+- Confrontation à des contenus de niveau master et projets exigeants (études de cas, mini-projets).  
+- Développement d'un réseau académique et sensibilisation aux enjeux de recherche appliquée.
+
+---
+
+## 3) INFOSI — 3ᵉ année  
+**Domaines** : systèmes d'information, bases de données, architecture logicielle, sécurité des SI.
+
+**Objectifs pédagogiques**
+- Concevoir et implémenter des systèmes d'information fiables et évolutifs.  
+- Maîtriser les principes de modélisation de données, conception de base de données relationnelles et NoSQL.  
+- Intégrer les bonnes pratiques de sécurité, qualité logicielle et déploiement.
+
+**Projets & travaux marquants**
+- Conception d'applications avec architecture client-serveur et persistance robuste.  
+- Études de cas sur sécurité applicative, gestion des accès et protection des données.  
+- Réalisation de livrables complets : spécifications, prototype, tests et documentation utilisateur.
+
+**Compétences acquises**
+- Architecture logiciel, conception de bases de données, ingénierie des exigences, tests & déploiement, sécurité opérationnelle.
+
+---
+
+### Compétences transverses & atouts du parcours
+- Approche pluridisciplinaire alliant **data-science**, **algorithmique** et **ingénierie logicielle**.  
+- Capacité à conduire des projets de bout en bout : spécification, implémentation, validation et communication.  
+- Expérience internationale (échange Erasmus) : autonomie, adaptation culturelle et travail en équipes multiculturelles.  
+- Rigueur documentaire et savoir-faire en rédaction technique (rapports, manuels, livrables de projet).
+
+---
 
 ### Conclusion
-Le projet a permis de créer un **outil plus précis et flexible**, capable d’estimer la progression du trépan pour différents contextes géologiques.  
-Il offre une meilleure anticipation des besoins matériels et humains sur chantier.  
-Des incertitudes persistent cependant, faute de données expérimentales complètes, soulignant l’importance d’un couplage futur entre modélisation et suivi réel sur site.
+Mon parcours à l’École Centrale de Nantes, complété par une mobilité académique à l'UCLouvain et une spécialisation en INFOSI, forme un profil d'ingénieur orienté **données & systèmes** : solide sur l'analyse de données et le calcul scientifique, capable de concevoir et déployer des systèmes d'information robustes, et apte à travailler en contexte international.
 
-Ce travail illustre l’application des **sciences mécaniques et du génie civil** à la planification d’opérations maritimes complexes.

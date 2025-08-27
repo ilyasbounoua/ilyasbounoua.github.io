@@ -11,15 +11,11 @@ redirect_from:
 
 ## Formation
 
-- **École Centrale de Nantes (France)** — *Cursus ingénieur généraliste (2023–2026)*  
-  - 2ᵉ année : option **DATASIM** – Données, analyse, traitement du signal et de l'image  
-  - Semestre 8 : échange Erasmus – Master Informatique, **Université Catholique de Louvain**  
-  - 3ᵉ année : option **INFOSI** – Informatique pour les systèmes d’information  
-
-- **Lycée Mohammed VI d’Excellence (Maroc)** — *Classes Préparatoires Technologie et Sciences Industrielles (2021–2023)*  
-
-- **Baccalauréat Scientifique (Maroc)** — *Sciences et Technologies Électriques, Mention Très Bien (2020–2021)*  
-
+<ul>
+  {% for post in site.parcours reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
 ---
 
 ## Expériences professionnelles

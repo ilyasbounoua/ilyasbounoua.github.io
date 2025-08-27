@@ -1,33 +1,38 @@
 ---
-title: "Étude du dimensionnement d'un trépan"
+title: "Certification TOEIC"
 collection: parcours
 category: Formations complémentaires
 permalink: /parcour/TOEIC
-excerpt: "Développement d'une feuille de calcul pour estimer l'avancement du forage par coup de trépan, en généralisant le modèle à tous types de roches."
+excerpt: "Certification TOEIC obtenue en 2024 avec un score de 930/990 (Listening B2, Reading C1, niveau global B2+)."
 date: 2024-06-06
-venue: 'Projet Étudiant-Entreprise – Groupe ETPO'
+venue: 'ETS Global — École Centrale de Nantes (France)'
 paperurl: 'http://ilyasbounoua.github.io/files/TOEIC.pdf'
 ---
 
-Le projet **P2E n°13** s'inscrit dans une collaboration avec le **Groupe ETPO**, spécialisé dans les travaux maritimes et industriels.  
-Il a pour objectif de modéliser scientifiquement l’opération de **trépanage** — un procédé permettant de fracturer la roche pour implanter des pieux — et de développer un **tableur de calcul** pour estimer la progression du forage par coup de trépan.
+**Test of English for International Communication (TOEIC)** — *Score 930/990 (2024)*
 
-### Objectifs principaux
-1. Reprendre les résultats du P2E 2022 et les généraliser à **tous types de roches**.  
-2. Intégrer les paramètres clés : type de roche, diamètre du pieu, poids et hauteur de chute du trépan.  
-3. Affiner la précision du modèle à l’aide du **critère de Hoek-Brown** et d’une **approche énergétique**.  
-4. Déterminer le rendement du forage par heure en fonction des paramètres mécaniques et du treuil.  
-5. Produire une **documentation complète** (rapport, manuel utilisateur) pour faciliter l’usage de l’outil.
+Le **TOEIC** évalue les compétences en anglais dans un contexte professionnel et académique. Il constitue une référence internationale pour mesurer la compréhension orale et écrite ainsi que la capacité à communiquer efficacement dans un environnement de travail.
 
-### Réalisation
-- **Analyse théorique** : étude des équations différentielles, modélisation du sol comme système amorti, validation des hypothèses.  
-- **Développement du tableur** : correction des équations issues du P2E précédent, ajout de paramètres pour la poussée d’Archimède et la viscosité, résolution graphique pour déterminer la durée de chute.  
-- **Comparaison avec la réalité** : application aux données de chantier (Saint-Nazaire, Concarneau) et confrontation des résultats avec les estimations de l’entreprise.  
-- **Organisation du projet** : suivi rigoureux avec réunions régulières (tuteur et entreprise), partage des tâches, mise à jour du calendrier via Trello et Google Drive.
+### Résultats
+- **Score global : 930 / 990**  
+- **Listening : 470 / 495 (CEFR B2)**  
+- **Reading : 460 / 495 (CEFR C1)**  
+- **Niveau global CEFR : B2+**  
+- **Valide jusqu’au : 06 juin 2026**  
+- **Client/Institution : École Centrale de Nantes (France)**
+
+### Objectifs
+1. Attester d’un **haut niveau en anglais professionnel et académique**.  
+2. Valider les compétences en **compréhension orale** (Listening) et **compréhension écrite** (Reading).  
+3. Renforcer la capacité à utiliser l’anglais dans un cadre **technique, scientifique et international**.  
+4. Répondre aux exigences linguistiques des écoles d’ingénieurs et programmes d’échanges internationaux.
+
+### Compétences démontrées
+- Compréhension claire de conversations et présentations complexes, même avec vocabulaire technique.  
+- Lecture et analyse rapide de textes professionnels et scientifiques.  
+- Capacité à connecter des informations et à interpréter des détails précis.  
+- Bonne maîtrise du vocabulaire, des structures grammaticales et des expressions idiomatiques.  
+- Communication fluide et adaptée à un environnement académique ou professionnel.
 
 ### Conclusion
-Le projet a permis de créer un **outil plus précis et flexible**, capable d’estimer la progression du trépan pour différents contextes géologiques.  
-Il offre une meilleure anticipation des besoins matériels et humains sur chantier.  
-Des incertitudes persistent cependant, faute de données expérimentales complètes, soulignant l’importance d’un couplage futur entre modélisation et suivi réel sur site.
-
-Ce travail illustre l’application des **sciences mécaniques et du génie civil** à la planification d’opérations maritimes complexes.
+Certification TOEIC obtenue en 2024 avec un score de 930/990, confirmant un niveau **B2+** en anglais selon le CEFR (Listening B2, Reading C1).  

@@ -1,34 +1,50 @@
 ---
-title: "Étude du dimensionnement d'un trépan"
+title: "Classes Préparatoires (CPGE)"
 collection: parcours
 category: CPGE
 permalink: /parcour/CPGE
-excerpt: "Développement d'une feuille de calcul pour estimer l'avancement du forage par coup de trépan, en généralisant le modèle à tous types de roches."
+excerpt: "Classes Préparatoires Technologie et Sciences Industrielles au Lycée Mohammed VI d’Excellence : formation intensive en sciences et techniques, projets appliqués et préparation aux concours d'entrée aux écoles d'ingénieurs."
 date: 2021-08-24
 date_end: 2023-02-20
-venue: 'Projet Étudiant-Entreprise – Groupe ETPO'
+venue: 'Lycée Mohammed VI d’Excellence (Maroc)'
 
 ---
 
-Le projet **P2E n°13** s'inscrit dans une collaboration avec le **Groupe ETPO**, spécialisé dans les travaux maritimes et industriels.  
-Il a pour objectif de modéliser scientifiquement l’opération de **trépanage** — un procédé permettant de fracturer la roche pour implanter des pieux — et de développer un **tableur de calcul** pour estimer la progression du forage par coup de trépan.
+**Classes Préparatoires — Technologie et Sciences Industrielles (CPGE)**  
+*Lycée Mohammed VI d’Excellence (Maroc), 2021–2023*
 
-### Objectifs principaux
-1. Reprendre les résultats du P2E 2022 et les généraliser à **tous types de roches**.  
-2. Intégrer les paramètres clés : type de roche, diamètre du pieu, poids et hauteur de chute du trépan.  
-3. Affiner la précision du modèle à l’aide du **critère de Hoek-Brown** et d’une **approche énergétique**.  
-4. Déterminer le rendement du forage par heure en fonction des paramètres mécaniques et du treuil.  
-5. Produire une **documentation complète** (rapport, manuel utilisateur) pour faciliter l’usage de l’outil.
+Formation intensive de deux ans en filière **Technologie et Sciences Industrielles**, destinée à consolider et approfondir les acquis scientifiques et techniques pour la préparation aux concours d’entrée aux écoles d’ingénieurs. Le parcours combine enseignements théoriques exigeants, travaux pratiques et projets appliqués illustrant la mise en œuvre concrète des connaissances.
 
-### Réalisation
-- **Analyse théorique** : étude des équations différentielles, modélisation du sol comme système amorti, validation des hypothèses.  
-- **Développement du tableur** : correction des équations issues du P2E précédent, ajout de paramètres pour la poussée d’Archimède et la viscosité, résolution graphique pour déterminer la durée de chute.  
-- **Comparaison avec la réalité** : application aux données de chantier (Saint-Nazaire, Concarneau) et confrontation des résultats avec les estimations de l’entreprise.  
-- **Organisation du projet** : suivi rigoureux avec réunions régulières (tuteur et entreprise), partage des tâches, mise à jour du calendrier via Trello et Google Drive.
+### Objectifs du parcours
+1. Approfondir les connaissances en **mathématiques**, **physique** et **sciences industrielles** afin d’acquérir un niveau de résolution de problèmes adapté aux concours d’ingénieurs.  
+2. Maîtriser les fondamentaux de la **mécanique**, de l’**électrotechnique**, de l’**électronique** et de l’**automatique**.  
+3. Développer des compétences expérimentales (mesures, instrumentation) et analytiques (modélisation, simulation).  
+4. Réaliser et piloter des projets techniques intégrant conception, modélisation et validation expérimentale.  
+5. Se préparer aux épreuves écrites et orales des concours et aux poursuites d’études (écoles d’ingénieurs, DUT/BUT, licences spécialisées).
 
-### Conclusion
-Le projet a permis de créer un **outil plus précis et flexible**, capable d’estimer la progression du trépan pour différents contextes géologiques.  
-Il offre une meilleure anticipation des besoins matériels et humains sur chantier.  
-Des incertitudes persistent cependant, faute de données expérimentales complètes, soulignant l’importance d’un couplage futur entre modélisation et suivi réel sur site.
+### Contenu et enseignements
+- **Mathématiques avancées** : analyse, algèbre linéaire, probabilités appliquées.  
+- **Physique appliquée** : mécanique du solide et des fluides, thermodynamique, électromagnétisme.  
+- **Sciences industrielles** : cinématique, résistance des matériaux, automatique, CAO/DAO.  
+- **Électrotechnique & électronique** : machines électriques, convertisseurs, électronique de puissance, capteurs.  
+- **Informatique et outils** : programmation de scripts/algorithmes, utilisation de tableurs et d’outils de simulation.  
+- **Langues & communication** : anglais technique et expression scientifique.
 
-Ce travail illustre l’application des **sciences mécaniques et du génie civil** à la planification d’opérations maritimes complexes.
+### Travaux pratiques et projets
+- Bancs d’essais et protocoles de mesure (courant/tension, rendements, caractérisations). 
+- Rédaction de rapports techniques, présentations orales et défense de projets devant un jury pédagogique.
+
+### Méthodes pédagogiques
+- Démarche expérimentale couplée à la modélisation mathématique et physique.  
+- Approche progressive : exercices intensifs, devoirs surveillés, colles/oraux blancs.  
+- Travail en équipe, gestion de projet et respect de livrables (planning, comptes rendus).
+
+### Compétences développées
+- Capacité d’analyse et de modélisation de systèmes physiques et technologiques.  
+- Maîtrise des outils de calcul (tableurs, scripts) et d’instrumentation.  
+- Conception et vérification expérimentale de dispositifs.  
+- Rigueur scientifique, synthèse écrite et communication orale.  
+- Préparation méthodique aux concours et autonomie de travail.
+
+### Résultat
+Parcours complété (2021–2023) — **Admis à l'École Centrale de Nantes**.
