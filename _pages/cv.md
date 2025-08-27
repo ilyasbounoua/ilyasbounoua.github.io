@@ -11,19 +11,19 @@ redirect_from:
 
 ## Formation
 
-- [**École Centrale de Nantes (France)**] - *Cursus ingénieur généraliste (2023–2026)*(/parcour/ECN)
+- [**École Centrale de Nantes (France)**](/parcour/ECN) - *Cursus ingénieur généraliste (2023–2026)*
   - 2ᵉ année : option **DATASIM** – Données, analyse, traitement du signal et de l'image  
   - Semestre 8 : échange Erasmus – Master Informatique, **Université Catholique de Louvain (Belgique)**  
   - 3ᵉ année : option **INFOSI** – Informatique pour les systèmes d’information  
 
 - [**Certification TOEIC (2024)**](/parcour/TOEIC)
-*Score 930/990, niveau B2+*
+  *Score 930/990, niveau B2+*
 
 - [**Lycée Mohammed VI d’Excellence (Maroc)**](/parcour/CPGE)
-*Classes Préparatoires Technologie et Sciences Industrielles (2021–2023)*
+  *Classes Préparatoires Technologie et Sciences Industrielles (2021–2023)*
 
 - [**Baccalauréat Scientifique (Maroc)**](/parcour/BAC)
-*Sciences et Technologies Électriques, Mention Très Bien (2020–2021)*
+  *Sciences et Technologies Électriques, Mention Très Bien (2020–2021)*
 
 ---
 
