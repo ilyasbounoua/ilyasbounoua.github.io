@@ -1,30 +1,23 @@
 ---
-title: "OFC : Organisateur des feux de circulation"
+title: "Équipier polyvalent – ANTOL"
 collection: experiences
 category: postes
 permalink: /poste/ANTOL
-excerpt: "Un système intelligent de gestion des feux tricolores à l'aide d'une caméra, Raspberry Pi et Arduino"
+excerpt: "Expérience en restauration rapide : service client, gestion du stress, travail en équipe"
 date: 2024-08-01
 end_date: 2025-01-15
-venue: 'TIPE - CPGE'
-citation: 'Bounoua, Ilyas. (2023). &quot;OFC : Organisateur des feux de circulation.&quot; <i>TIPE - CPGE</i>.'
+venue: 'ANTOL - Franchise McDonald’s, Nantes'
 ---
-Le projet **OFC (Organisateur des feux de circulation)** vise à optimiser la gestion des feux tricolores urbains.  
-En utilisant une caméra montée sur un boîtier rotatif, les voies d’un carrefour sont analysées afin de compter les véhicules.  
-Une carte Raspberry Pi traite ces informations et, via un algorithme, attribue la priorité à la voie la plus chargée tout en garantissant une alternance minimale.  
-Les feux sont commandés par une carte Arduino communiquant par modules nRF24L01.
+En tant qu’équipier polyvalent au sein de la société **ANTOL**, franchise McDonald’s à Nantes, j’ai assuré différentes missions opérationnelles et développé des compétences transférables.  
 
-### Objectifs principaux
-1. Choisir et modéliser le moteur assurant la rotation du boîtier.  
-2. Asservir ce moteur en position pour orienter la caméra avec précision.  
-3. Développer un algorithme d'analyse d'image et de comparaison du trafic.  
-4. Déterminer un ordre de priorité automatique et éviter les blocages.  
-5. Concevoir le programme Arduino pour commander les feux tricolores.
+### Responsabilités
+- Accueil et service client, prise et préparation de commandes  
+- Respect strict des normes d’hygiène, de sécurité et de qualité  
+- Travail en équipe pour assurer un service rapide et efficace  
+- Gestion du stress et adaptation dans un environnement à forte affluence  
 
-### Réalisation
-- Études théoriques : modélisation, dimensionnement, asservissement PID.  
-- Développement de sous-programmes pour la détection et le comptage des véhicules.  
-- Conception et tests du prototype intégrant caméra, Raspberry Pi, Arduino et modules de communication sans fil.  
-- Validation expérimentale du système et comparaison simulation/réalité.
-
-Ce travail s’inscrit dans le domaine des **Sciences Industrielles (Automatique et Génie Électrique)** et montre qu’une signalisation routière intelligente peut réduire les embouteillages tout en améliorant la sécurité et l’efficacité énergétique.
+### Compétences développées
+- Relation client et communication  
+- Organisation et réactivité  
+- Esprit d’équipe et polyvalence  
+- Respect des standards qualité et procédures
