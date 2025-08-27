@@ -7,8 +7,6 @@ excerpt: "Un système intelligent de gestion des feux tricolores à l'aide d'une
 date: 2024-08-01
 end_date: 2025-01-15
 venue: 'TIPE - CPGE'
-slidesurl: 'http://ilyasbounoua.github.io/files/OFC_SLIDES.pdf'
-paperurl: 'http://ilyasbounoua.github.io/files/OFC_MCOT.pdf'
 citation: 'Bounoua, Ilyas. (2023). &quot;OFC : Organisateur des feux de circulation.&quot; <i>TIPE - CPGE</i>.'
 ---
 Le projet **OFC (Organisateur des feux de circulation)** vise à optimiser la gestion des feux tricolores urbains.  
