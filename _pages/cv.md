@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Étudiant ingénieur à Centrale Nantes, je cherche un stage de **6 mois à partir d'avril 2026** dans le domaine des Systèmes d'Information. Motivé par les défis techniques et la transformation numérique, je souhaite contribuer à la conception et à l'optimisation de votre infrastructure informatique.
+
 ## Formation
 
 - [**École Centrale de Nantes (France)**](/parcour/2023-ECN) - *Cursus ingénieur généraliste (2023–2026)*
