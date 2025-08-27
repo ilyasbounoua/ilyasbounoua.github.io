@@ -11,11 +11,17 @@ redirect_from:
 
 ## Formation
 
-<ul>
-  {% for post in site.parcours reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
+- [**École Centrale de Nantes (France)** — *Cursus ingénieur généraliste (2023–2026)*](/parcour/ECN)
+  - 2ᵉ année : option **DATASIM** – Données, analyse, traitement du signal et de l'image  
+  - Semestre 8 : échange Erasmus – Master Informatique, **Université Catholique de Louvain (Belgique)**  
+  - 3ᵉ année : option **INFOSI** – Informatique pour les systèmes d’information  
+
+- [**Certification TOEIC (2024)** — *Score 930/990, niveau B2+*](/parcour/TOEIC)
+
+- [**Lycée Mohammed VI d’Excellence (Maroc)** — *Classes Préparatoires Technologie et Sciences Industrielles (2021–2023)*](/parcour/CPGE)
+
+- [**Baccalauréat Scientifique (Maroc)** — *Sciences et Technologies Électriques, Mention Très Bien (2020–2021)*](/parcour/BAC)
+
 ---
 
 ## Expériences professionnelles
