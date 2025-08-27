@@ -29,11 +29,11 @@ redirect_from:
 
 ## Expériences professionnelles
 
-- [**Équipier polyvalent – ANTOL (Nantes, France)**](/experiences/2024-ANTOL)  
+- [**Équipier polyvalent – ANTOL (Nantes, France)**](/poste/ANTOL)  
   *Août 2024 – Janv. 2025*  
   - Service client, gestion du stress, travail en équipe  
 
-- [**Stagiaire d’observation – HWM Maroc (Casablanca, Maroc)**](/experiences/2024-HWM)  
+- [**Stagiaire d’observation – HWM Maroc (Casablanca, Maroc)**](/stage/2024-HWM)  
   *Juin – Juil. 2024*  
   - Suivi des interactions clients et participation aux réunions interservices  
 
