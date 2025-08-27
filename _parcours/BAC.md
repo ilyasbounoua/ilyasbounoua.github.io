@@ -1,0 +1,42 @@
+---
+title: "Baccalauréat Scientifique (Maroc)"
+collection: parcours
+category: Enseignement secondaire
+permalink: /parcour/BAC
+excerpt: "Baccalauréat Scientifique (Maroc) — filière Sciences et Technologies Électriques, Mention Très Bien (2020–2021)."
+date: 2021-06-18
+paperurl: 'http://ilyasbounoua.github.io/files/BAC.pdf'
+---
+
+**Baccalauréat Scientifique (Maroc)** — *Sciences et Technologies Électriques (STÉ), Mention Très Bien (2020–2021)*
+
+Parcours secondaire axé sur les sciences fondamentales et les technologies électriques, combinant enseignements théoriques, travaux dirigés et pratiques de laboratoire.
+
+### Objectifs du parcours
+1. Consolider les bases en mathématiques, physique et sciences de l’ingénieur.  
+2. Maîtriser les fondamentaux de l’électrotechnique et de l’électronique.  
+3. Développer des compétences expérimentales (mesures, instrumentation) et l’usage d’outils de calcul.  
+4. Préparer la poursuite d’études en filières scientifiques et technologiques.
+
+### Contenu et enseignements
+- **Mathématiques** : analyse, algèbre, probabilités & statistiques.  
+- **Physique** : mécanique, électromagnétisme, optique.  
+- **Électrotechnique / Électronique** : circuits, machines, convertisseurs, commande.  
+- **Technologie & atelier** : bancs d’essai, mesures, sécurité électrique.  
+- **Langues & culture** : français, anglais technique.
+
+### Méthodes et travaux pratiques
+- Protocoles de mesure courant/tension, caractérisation de composants et de systèmes.  
+- Utilisation de tableurs et outils de modélisation pour le calcul et la présentation des résultats.  
+- Comptes rendus structurés, communication technique et travail en équipe.  
+- Démarche : **modélisation → expérimentation → analyse critique.**
+
+### Compétences développées
+- Raisonnement scientifique et modélisation.  
+- Conception/diagnostic de circuits et systèmes électriques.  
+- Maîtrise d’instrumentation et de méthodes de mesure.  
+- Rigueur dans la rédaction et la présentation des résultats.  
+- Autonomie et organisation du travail.
+
+### Résultat
+Obtention du **Baccalauréat Scientifique — STÉ**, *Mention Très Bien (2020–2021)*.
