@@ -1,5 +1,4 @@
 {% include base_path %}
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -15,17 +14,20 @@
           <!-- Single navigation loop: compute URL per language -->
           {% for link in site.data.navigation.main %}
             {% assign raw_url = link.url %}
+            {% assign target_url = raw_url %}
+
             {% comment %}
               If internal and we're on en, prefix with /en unless it already starts with /en/
             {% endcomment %}
-            {% assign target_url = raw_url %}
             {% if plang == 'en' and raw_url and raw_url != '/' %}
-              {% unless raw_url contains 'http' or raw_url startswith '/en/' %}
+              {% assign prefix = raw_url | slice: 0,4 %}
+              {% unless raw_url contains 'http' or prefix == '/en/' %}
                 {% assign target_url = '/en' | append: raw_url %}
               {% endunless %}
             {% endif %}
 
             {% assign link_title = link.title[plang] | default: link.title %}
+
             {% if raw_url contains 'http' %}
               <li class="masthead__menu-item"><a href="{{ target_url }}">{{ link_title }}</a></li>
             {% else %}
