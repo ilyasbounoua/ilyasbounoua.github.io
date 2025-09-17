@@ -1,5 +1,4 @@
 {% include base_path %}
-{% assign plang = page.lang | default: site.lang | default: 'fr' %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -13,20 +12,28 @@
             <a href="{{ base_path }}/">{{ site.data.i18n[plang].site_title | default: site.title }}</a>
           </li>
 
-          <!-- Single navigation loop: each link provides a per-lang title -->
+          <!-- Single navigation loop: compute URL per language -->
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
+            {% assign raw_url = link.url %}
+            {% comment %}
+              If internal and we're on en, prefix with /en unless it already starts with /en/
+            {% endcomment %}
+            {% assign target_url = raw_url %}
+            {% if plang == 'en' and raw_url and raw_url != '/' %}
+              {% unless raw_url contains 'http' or raw_url startswith '/en/' %}
+                {% assign target_url = '/en' | append: raw_url %}
+              {% endunless %}
             {% endif %}
+
             {% assign link_title = link.title[plang] | default: link.title %}
-            <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}">{{ link_title }}</a>
-            </li>
+            {% if raw_url contains 'http' %}
+              <li class="masthead__menu-item"><a href="{{ target_url }}">{{ link_title }}</a></li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ base_path }}{{ target_url }}">{{ link_title }}</a></li>
+            {% endif %}
           {% endfor %}
 
-          <!-- Language toggle (build-time approach: toggles to /en/ pages) -->
+          <!-- Language toggle (build-time redirect – label is set server-side) -->
           <li id="lang-toggle" class="masthead__menu-item persist tail">
             <a role="button"
                id="lang-toggle-button"

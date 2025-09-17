@@ -28,6 +28,16 @@
     }
   };
 
+  function getLangFromPath() {
+    // Treat any path starting with /en/ as English; root or other paths => French by convention
+    try {
+      const p = window.location.pathname || '/';
+      return p.startsWith('/en/') || p === '/en' ? 'en' : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   function applyLang(lang) {
     const translations = i18n[lang] || i18n.fr;
 
@@ -67,31 +77,52 @@
     }
   }
 
-    function toggleLang() {
-        const path = window.location.pathname;
-        // handle root
-        if (path === '/' || path === '') {
-            window.location.href = '/en/';
-            return;
-        }
-        // if already in /en/, go to non-en path
-        if (path.startsWith('/en/')) {
-            const target = path.replace(/^\/en/, '') || '/';
-            window.location.href = target;
-            return;
-        }
-        // attempt to map current path to /en/ equivalent
-        window.location.href = '/en' + path;
-        }
+  function toggleLang() {
+    const path = window.location.pathname || '/';
+    const isEn = path.startsWith('/en/') || path === '/en';
+    let target;
+    let nextLang;
+
+    if (isEn) {
+      // if on /en/... -> strip only the first leading /en
+      target = path.replace(/^\/en(?=\/|$)/, '') || '/';
+      nextLang = 'fr';
+    } else {
+      // on non-en path -> prefix with /en (avoid double //)
+      if (path === '/' || path === '') {
+        target = '/en/';
+      } else {
+        target = '/en' + path;
+      }
+      nextLang = 'en';
+    }
+
+    // persist preference before navigating
+    try { localStorage.setItem(STORAGE_KEY, nextLang); } catch (e) { /* ignore */ }
+
+    // navigate (preserve query + hash if present)
+    const q = window.location.search || '';
+    const h = window.location.hash || '';
+    window.location.href = target + q + h;
+  }
 
   // init once DOM is ready
   document.addEventListener('DOMContentLoaded', () => {
-    const saved = localStorage.getItem(STORAGE_KEY) || defaultLang;
-    applyLang(saved);
+    // determine language preference: URL > localStorage > browser
+    const pathLang = getLangFromPath();
+    const saved = (function() {
+      try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
+    })();
+    const lang = pathLang || saved || defaultLang;
+
+    // if path says en but saved differs, sync saved
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) { /* ignore */ }
+
+    applyLang(lang);
 
     const btn = document.getElementById('lang-toggle-button');
     if (btn) {
-      btn.addEventListener('click', toggleLang);
+      btn.addEventListener('click', function (e) { e.preventDefault(); toggleLang(); });
       btn.addEventListener('keydown', function (e) {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleLang(); }
       });

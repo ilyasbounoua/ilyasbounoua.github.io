@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-
+{% assign plang = page.lang | default: site.lang | default: 'fr' %}
 {% include base_path %}
 
 <!doctype html>
@@ -11,6 +11,8 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
+  <script src="{{ base_path }}/assets/js/lang-toggle.js"></script>
+  
   <body>
 
     {% include browser-upgrade.html %}
