@@ -1,4 +1,5 @@
 {% include base_path %}
+{% assign plang = page.lang | default: site.lang | default: 'fr' %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,30 +7,46 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+
+          <!-- Site title (use translated site title when available) -->
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
+            <a href="{{ base_path }}/">{{ site.data.i18n[plang].site_title | default: site.title }}</a>
+          </li>
+
+          <!-- Single navigation loop: each link provides a per-lang title -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign link_title = link.title[plang] | default: link.title %}
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}">{{ link_title }}</a>
+            </li>
           {% endfor %}
+
+          <!-- Language toggle (build-time approach: toggles to /en/ pages) -->
           <li id="lang-toggle" class="masthead__menu-item persist tail">
             <a role="button"
-              id="lang-toggle-button"
-              aria-label="Switch language"
-              title="FR / EN"
-              aria-pressed="false">
-              <!-- Font Awesome globe/language icon -->
+               id="lang-toggle-button"
+               aria-label="Switch language"
+               title="FR / EN"
+               aria-pressed="false">
               <i id="lang-icon" class="fa-solid fa-language" aria-hidden="true" title="toggle language"></i>
-              <!-- short visible language label (FR or EN) -->
-              <span id="lang-label" style="margin-left:.35rem; font-weight:600;">FR</span>
+              <span id="lang-label" style="margin-left:.35rem; font-weight:600;">
+                {{ page.lang | default: site.lang | default: 'fr' | upcase }}
+              </span>
             </a>
           </li>
+
+          <!-- Theme toggle (existing) -->
           <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+            <a role="button" aria-labelledby="theme-icon">
+              <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
+            </a>
           </li>
+
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

@@ -1,0 +1,28 @@
+---
+title: "Stagiaire d’observation – HWM Maroc"
+collection: experiences
+category: stages
+lang: en
+permalink: /en/stage/2024-HWM
+excerpt: "Stage d’observation en environnement professionnel : suivi des interactions clients et participation aux réunions interservices"
+date: 2024-06-24
+end_date: 2024-07-24
+venue: 'HWM Maroc - Casablanca, Maroc'
+slidesurl: 'http://ilyasbounoua.github.io/files/HWM_Slides.pdf'
+paperurl: 'http://ilyasbounoua.github.io/files/HWM_Rapport.pdf'
+citation: 'Bounoua, Ilyas. (2024). "Stage d’observation – HWM Maroc".'
+---
+Durant mon **stage d’observation** au sein de **HWM Maroc**, j’ai découvert le fonctionnement global d’une entreprise spécialisée dans l’aménagement d’espaces de travail et le mobilier professionnel.  
+Ce stage m’a permis de suivre les différentes étapes d’un projet client, de la prise de contact jusqu’à la livraison finale, et d’observer la coordination entre les départements.
+
+### Missions et apprentissages
+1. Suivi des interactions avec les clients et compréhension des besoins.  
+2. Participation à des réunions interservices (commercial, achats, logistique, bureau d’études).  
+3. Observation du processus de réponse à appel d’offres et des échanges avec les fournisseurs.  
+4. Découverte des certifications qualité et des normes appliquées dans le secteur.  
+
+### Compétences développées
+- Compréhension du cycle complet d’un projet commercial.  
+- Sens de l’organisation et de la communication professionnelle.  
+- Notions sur la logistique, la coordination d’équipes et le suivi qualité.  
+- Vision globale d’une entreprise structurée autour de plusieurs départements.

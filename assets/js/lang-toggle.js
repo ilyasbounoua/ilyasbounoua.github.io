@@ -67,12 +67,22 @@
     }
   }
 
-  function toggleLang() {
-    const cur = localStorage.getItem(STORAGE_KEY) || defaultLang;
-    const next = (cur === 'fr') ? 'en' : 'fr';
-    localStorage.setItem(STORAGE_KEY, next);
-    applyLang(next);
-  }
+    function toggleLang() {
+        const path = window.location.pathname;
+        // handle root
+        if (path === '/' || path === '') {
+            window.location.href = '/en/';
+            return;
+        }
+        // if already in /en/, go to non-en path
+        if (path.startsWith('/en/')) {
+            const target = path.replace(/^\/en/, '') || '/';
+            window.location.href = target;
+            return;
+        }
+        // attempt to map current path to /en/ equivalent
+        window.location.href = '/en' + path;
+        }
 
   // init once DOM is ready
   document.addEventListener('DOMContentLoaded', () => {

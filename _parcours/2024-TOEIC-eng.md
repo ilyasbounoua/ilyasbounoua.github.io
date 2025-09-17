@@ -1,0 +1,38 @@
+---
+title: "Certification TOEIC"
+collection: parcours
+category: Formations complémentaires
+permalink: /parcour/2024-TOEIC
+excerpt: "Certification TOEIC obtenue en 2024 avec un score de 930/990 (Listening B2, Reading C1, niveau global B2+)."
+date: 2024-06-06
+venue: 'ETS Global — École Centrale de Nantes (France)'
+paperurl: 'http://ilyasbounoua.github.io/files/ETS_TOEIC.pdf'
+---
+
+**Test of English for International Communication (TOEIC)** — *Score 930/990 (2024)*
+
+Le **TOEIC** évalue les compétences en anglais dans un contexte professionnel et académique. Il constitue une référence internationale pour mesurer la compréhension orale et écrite ainsi que la capacité à communiquer efficacement dans un environnement de travail.
+
+### Résultats
+- **Score global : 930 / 990**  
+- **Listening : 470 / 495 (CEFR B2)**  
+- **Reading : 460 / 495 (CEFR C1)**  
+- **Niveau global CEFR : B2+**  
+- **Valide jusqu’au : 06 juin 2026**  
+- **Client/Institution : École Centrale de Nantes (France)**
+
+### Objectifs
+1. Attester d’un **haut niveau en anglais professionnel et académique**.  
+2. Valider les compétences en **compréhension orale** (Listening) et **compréhension écrite** (Reading).  
+3. Renforcer la capacité à utiliser l’anglais dans un cadre **technique, scientifique et international**.  
+4. Répondre aux exigences linguistiques des écoles d’ingénieurs et programmes d’échanges internationaux.
+
+### Compétences démontrées
+- Compréhension claire de conversations et présentations complexes, même avec vocabulaire technique.  
+- Lecture et analyse rapide de textes professionnels et scientifiques.  
+- Capacité à connecter des informations et à interpréter des détails précis.  
+- Bonne maîtrise du vocabulaire, des structures grammaticales et des expressions idiomatiques.  
+- Communication fluide et adaptée à un environnement académique ou professionnel.
+
+### Conclusion
+Certification TOEIC obtenue en 2024 avec un score de 930/990, confirmant un niveau **B2+** en anglais selon le CEFR (Listening B2, Reading C1).  
