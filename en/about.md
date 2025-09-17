@@ -1,30 +1,30 @@
 ---
 lang: en
 permalink: /en/
-title: "Carnet d’un ingénieur en devenir – Étudiant Centrale Nantes"
+title: "Notebook of an Engineer in the Making – Centrale Nantes Student"
 author_profile: true
 redirect_from: 
   - /en/about/
   - /en/about.html
 ---
 
-Bienvenue sur mon site personnel !
-Je suis étudiant ingénieur à Centrale Nantes, spécialisé dans les systèmes d’information et la transformation numérique.
-Actuellement en troisième année du cursus ingénieur généraliste (options DATASIM et INFOSI), je m’intéresse particulièrement à la conception et à l’optimisation d’infrastructures informatiques.
+Welcome to my personal website!
+I am an engineering student at Centrale Nantes, specializing in information systems and digital transformation.
+Currently in my third year of the general engineering program (DATASIM and INFOSI options), I am particularly interested in the design and optimization of IT infrastructure.
 
 ---
 
-### Ce que vous trouverez ici
-- **Parcours académique :** mon itinéraire à Centrale Nantes et à l’Université Catholique de Louvain (Erasmus)  
-- **Projets et expériences :** contributions techniques, missions en entreprise et projets étudiants  
-- **Compétences :** programmation (Python, C++), bases de données, outils collaboratifs  
-- **CV et documents :** accès direct à mon CV et autres ressources  
+### What you will find here
+- **Academic background:** my journey at Centrale Nantes and at the Université Catholique de Louvain (Erasmus)  
+- **Projects and experiences:** technical contributions, internships, and student projects  
+- **Skills:** programming (Python, C++), databases, collaborative tools  
+- **CV and documents:** direct access to my resume and other resources  
 
 ---
 
-### Objectif
-Motivé par les **défis techniques** et la **transformation digitale**, je souhaite rejoindre une équipe dynamique afin d'appliquer mes compétences et d’apprendre auprès de professionnels du domaine.
+### Objective
+Driven by **technical challenges** and **digital transformation**, I aim to join a dynamic team to apply my skills and learn from industry professionals.
 
 ---
 
-Vous pouvez naviguer dans les différentes sections du site pour en savoir plus sur mon profil, mes projets et mes expériences.
+You can navigate through the different sections of the site to learn more about my profile, projects, and experiences.

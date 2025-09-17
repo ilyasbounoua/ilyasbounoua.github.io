@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "CV"
+title: "Resume"
 lang: en
 permalink: /en/cv/
 author_profile: true
@@ -10,41 +10,40 @@ redirect_from:
 
 {% include base_path %}
 
-Étudiant ingénieur à Centrale Nantes, je cherche un stage de **6 mois à partir d'avril 2026** dans le domaine des Systèmes d'Information. Motivé par les défis techniques et la transformation numérique, je souhaite contribuer à la conception et à l'optimisation de votre infrastructure informatique.
+As an engineering student at Centrale Nantes, I am seeking a **6-month internship starting in April 2026** in the field of Information Systems. Motivated by technical challenges and digital transformation, I aim to contribute to the design and optimization of your IT infrastructure.
 
-## Formation
+## Education
 
-- [**École Centrale de Nantes (France)**](/parcour/2023-ECN) - *Cursus ingénieur généraliste (2023–2026)*
-  - 2ᵉ année : option **DATASIM** – Données, analyse, traitement du signal et de l'image  
-  - Semestre 8 : échange Erasmus – Master Informatique, **Université Catholique de Louvain (Belgique)**  
-  - 3ᵉ année : Option disciplinaire **INFOSI** – Informatique pour les systèmes d’information
-    - Option professionnelle : **PERFECT** – Perfectionnement de projet.
+- [**École Centrale de Nantes (France)**](/parcour/2023-ECN) - *General Engineering Program (2023–2026)*
+  - 2nd year: **DATASIM** option – Data, analysis, signal and image processing
+  - Semester 8: Erasmus exchange – Master in Computer Science, **Université Catholique de Louvain (Belgium)**
+  - 3rd year: Disciplinary option **INFOSI** – Computer Science for Information Systems
+    - Professional option: **PERFECT** – Project Enhancement.
 
-- [**Certification TOEIC (2024)**](/parcour/2024-TOEIC)  
-  *Score 930/990, niveau B2+*
+- [**TOEIC Certification (2024)**](/parcour/2024-TOEIC)
+  *Score 930/990, C1 Level*
 
-- [**Lycée Mohammed VI d’Excellence (Maroc)**](/parcour/2021-CPGE)  
-  *Classes Préparatoires Technologie et Sciences Industrielles (2021–2023)*
+- [**Lycée Mohammed VI d'Excellence (Morocco)**](/parcour/2021-CPGE)
+  *Preparatory Classes for Engineering Schools (Technology and Industrial Sciences) (2021–2023)*
 
-- [**Baccalauréat Scientifique (Maroc)**](/parcour/2021-BAC)  
-  *Sciences et Technologies Électriques, Mention Très Bien (2020–2021)*
-
----
-
-## Expériences professionnelles
-
-
-- [**Stagiaire d’observation – HWM Maroc (Casablanca, Maroc)**](/stage/2024-HWM)  
-  *Juin – Juil. 2024*  
-  - Suivi des interactions clients et participation aux réunions interservices  
-
-- [**Équipier polyvalent – ANTOL (Nantes, France)**](/poste/ANTOL)  
-  *Août 2024 – Janv. 2025*  
-  - Service client, gestion du stress, travail en équipe  
+- [**Scientific Baccalaureate (Morocco)**](/parcour/2021-BAC)
+  *Electrical Sciences and Technologies, Honors with Distinction (2020–2021)*
 
 ---
 
-## Projets
+## Work Experience
+
+- [**Observation Intern – HWM Morocco (Casablanca, Morocco)**](/stage/2024-HWM)
+  *June – July 2024*
+  - Monitored customer interactions and participated in cross-departmental meetings
+
+- [**Multiskilled Team Member – ANTOL (Nantes, France)**](/poste/ANTOL)
+  *August 2024 – January 2025*
+  - Customer service, stress management, teamwork
+
+---
+
+## Projects
 
 <ul>
   {% for post in site.projects reversed %}
@@ -54,21 +53,21 @@ redirect_from:
 
 ---
 
-## Compétences
+## Skills
 
-- **Programmation :** Python, C++ (bases)  
-- **Bases de données :** notions de SQL  
-- **Outils :** Microsoft Office, GanttProject, Fritzing (conception schématique)  
-- **Langues :**  
-  - Arabe – langue maternelle  
-  - Français – courant  
-  - Anglais – courant  
-  - Chinois – notions  
-- **Atouts :** adaptabilité, esprit d’équipe, organisation, gestion du stress, rapidité d’exécution  
+- **Programming:** Python, C++ (basics)
+- **Databases:** SQL fundamentals
+- **Tools:** Microsoft Office, GanttProject, Fritzing (schematic design)
+- **Languages:**
+  - Arabic – native
+  - French – fluent
+  - English – fluent
+  - Chinese – basic knowledge
+- **Strengths:** adaptability, teamwork, organization, stress management, execution speed
 
 ---
 
-## Centres d’intérêt
+## Interests
 
-- Volleyball — 5 ans d’expérience, membre de l’équipe ECN  
-- Jeux de société — pratique hebdomadaire en club  
+- Volleyball — 5 years of experience, member of the ECN team
+- Board games — weekly practice in a club

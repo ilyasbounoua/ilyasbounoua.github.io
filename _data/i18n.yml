@@ -1,13 +1,13 @@
 fr:
   site_title: "Portfolio académique"
   description: "projets, compétences et expériences au service de l’ingénierie numérique."
-  footer: "© 2025 Bounoua, Powered by Jekyll & AcademicPages."
+  footer: "© 2025 Bounoua, Propulsé par Jekyll & AcademicPages."
   url: "https://ilyasbounoua.github.io"
   author:
     name: "Bounoua Ilyas"
     bio: "Étudiant ingénieur à Centrale Nantes, passionné par l’info et la data."
     location: "France"
-    employer: "École Centrale de Nantes"
+    employer: "Centrale Nantes"
     email: "bounoua.ilyas@outlook.com"
     github: "ilyasbounoua"
     linkedin: "ilyas-bounoua"
@@ -34,17 +34,15 @@ fr:
       académique: "Projets académiques"
 
 en:
-  # Where an English label was provided in your navigation snippet, use it.
-  # Otherwise the French text is preserved (update when you have translations).
-  site_title: "Portfolio académique"
-  description: "projets, compétences et expériences au service de l’ingénierie numérique."
+  site_title: "Academic Portfolio"
+  description: "projects, skills, and experiences in the service of digital engineering."
   footer: "© 2025 Bounoua, Powered by Jekyll & AcademicPages."
   url: "https://ilyasbounoua.github.io"
   author:
     name: "Bounoua Ilyas"
-    bio: "Étudiant ingénieur à Centrale Nantes, passionné par l’info et la data."
+    bio: "Engineering student at Centrale Nantes, passionate about computer science and data."
     location: "France"
-    employer: "École Centrale de Nantes"
+    employer: "Centrale Nantes"
     email: "bounoua.ilyas@outlook.com"
     github: "ilyasbounoua"
     linkedin: "ilyas-bounoua"
@@ -57,15 +55,15 @@ en:
 
   categories:
     parcour_category:
-      "Formations complémentaires": "Formations complémentaires"
-      "Université et grandes écoles": "Université et grandes écoles"
-      "CPGE": "Classes préparatoires"
-      "Enseignement secondaire": "Enseignement secondaire"
+      "Formations complémentaires": "Additional Training"
+      "Université et grandes écoles": "University and Grandes Écoles"
+      "CPGE": "Preparatory Classes"
+      "Enseignement secondaire": "Secondary Education"
 
     experience_category:
-      stages: "Expériences professionnelles"
-      postes: "Activités salariée"
+      stages: "Internships"
+      postes: "Employment"
 
     project_category:
-      personel: "Projects personels"
-      académique: "Projets académiques"
+      personel: "Personal Projects"
+      académique: "Academic Projects"

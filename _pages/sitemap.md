@@ -1,20 +1,20 @@
 ---
 layout: archive
-title: "Sitemap"
+title: "Plan du site"
 permalink: /sitemap/
 author_profile: true
 ---
 
 {% include base_path %}
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+Une liste de tous les articles et pages disponibles sur le site. Pour vous, les robots, il existe également une [version XML]({{ base_path }}/sitemap.xml) disponible.
 
 <h2>Pages</h2>
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}
 
-<h2>Posts</h2>
+<h2>Articles</h2>
 {% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}

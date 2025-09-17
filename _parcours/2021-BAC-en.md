@@ -1,42 +1,42 @@
 ---
-title: "Baccalauréat Scientifique"
+title: "Scientific Baccalaureate"
 collection: parcours
-category: Enseignement secondaire
+category: Secondary Education
 permalink: /parcour/2021-BAC
-excerpt: "Baccalauréat Scientifique (Maroc) — filière Sciences et Technologies Électriques, Mention Très Bien (2020–2021)."
+excerpt: "Scientific Baccalaureate (Morocco) — Electrical Sciences and Technologies track, Honors with Distinction (2020–2021)."
 date: 2021-06-18
 paperurl: 'http://ilyasbounoua.github.io/files/BAC.pdf'
 ---
 
-**Baccalauréat Scientifique (Maroc)** — *Sciences et Technologies Électriques (STÉ), Mention Très Bien (2020–2021)*
+**Scientific Baccalaureate (Morocco)** — *Electrical Sciences and Technologies (STÉ), Honors with Distinction (2020–2021)*
 
-Parcours secondaire axé sur les sciences fondamentales et les technologies électriques, combinant enseignements théoriques, travaux dirigés et pratiques de laboratoire.
+Secondary education focused on fundamental sciences and electrical technologies, combining theoretical teachings, directed work, and laboratory practices.
 
-### Objectifs du parcours
-1. Consolider les bases en mathématiques, physique et sciences de l’ingénieur.  
-2. Maîtriser les fondamentaux de l’électrotechnique et de l’électronique.  
-3. Développer des compétences expérimentales (mesures, instrumentation) et l’usage d’outils de calcul.  
-4. Préparer la poursuite d’études en filières scientifiques et technologiques.
+### Program Objectives
+1. Consolidate foundations in mathematics, physics, and engineering sciences.  
+2. Master the fundamentals of electrical engineering and electronics.  
+3. Develop experimental skills (measurements, instrumentation) and the use of computational tools.  
+4. Prepare for further studies in scientific and technological fields.
 
-### Contenu et enseignements
-- **Mathématiques** : analyse, algèbre, probabilités & statistiques.  
-- **Physique** : mécanique, électromagnétisme, optique.  
-- **Électrotechnique / Électronique** : circuits, machines, convertisseurs, commande.  
-- **Technologie & atelier** : bancs d’essai, mesures, sécurité électrique.  
-- **Langues & culture** : français, anglais technique.
+### Content and Curriculum
+- **Mathematics**: analysis, algebra, probability & statistics.  
+- **Physics**: mechanics, electromagnetism, optics.  
+- **Electrical Engineering / Electronics**: circuits, machines, converters, control systems.  
+- **Technology & workshop**: test benches, measurements, electrical safety.  
+- **Languages & culture**: French, technical English.
 
-### Méthodes et travaux pratiques
-- Protocoles de mesure courant/tension, caractérisation de composants et de systèmes.  
-- Utilisation de tableurs et outils de modélisation pour le calcul et la présentation des résultats.  
-- Comptes rendus structurés, communication technique et travail en équipe.  
-- Démarche : **modélisation → expérimentation → analyse critique.**
+### Methods and Practical Work
+- Current/voltage measurement protocols, component and system characterization.  
+- Use of spreadsheets and modeling tools for calculations and result presentation.  
+- Structured reports, technical communication, and teamwork.  
+- Approach: **modeling → experimentation → critical analysis.**
 
-### Compétences développées
-- Raisonnement scientifique et modélisation.  
-- Conception/diagnostic de circuits et systèmes électriques.  
-- Maîtrise d’instrumentation et de méthodes de mesure.  
-- Rigueur dans la rédaction et la présentation des résultats.  
-- Autonomie et organisation du travail.
+### Skills Developed
+- Scientific reasoning and modeling.  
+- Design/diagnosis of electrical circuits and systems.  
+- Mastery of instrumentation and measurement methods.  
+- Rigor in writing and presenting results.  
+- Autonomy and work organization.
 
-### Résultat
-Obtention du **Baccalauréat Scientifique — STÉ**, *Mention Très Bien (2020–2021)*.
+### Result
+Awarded the **Scientific Baccalaureate — STÉ**, *Honors with Distinction (2020–2021)*.

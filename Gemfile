@@ -11,3 +11,5 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+
+#Local hosting: bundle exec jekyll serve --livereload

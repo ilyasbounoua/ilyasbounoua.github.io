@@ -1,50 +1,49 @@
 ---
-title: "Classes Préparatoires"
+title: "Preparatory Classes"
 collection: parcours
-category: CPGE
+category: Preparatory Classes
 permalink: /parcour/2021-CPGE
-excerpt: "Classes Préparatoires Technologie et Sciences Industrielles au Lycée Mohammed VI d’Excellence : formation intensive en sciences et techniques, projets appliqués et préparation aux concours d'entrée aux écoles d'ingénieurs."
+excerpt: "Technology and Industrial Sciences Preparatory Classes at Lycée Mohammed VI d'Excellence: intensive training in science and technology, applied projects, and preparation for engineering school entrance exams."
 date: 2021-08-24
 end_date: 2023-02-20
-venue: 'Lycée Mohammed VI d’Excellence (Maroc)'
-
+venue: "Lycée Mohammed VI d'Excellence (Morocco)"
 ---
 
-**Classes Préparatoires — Technologie et Sciences Industrielles (CPGE)**  
-*Lycée Mohammed VI d’Excellence (Maroc), 2021–2023*
+**Preparatory Classes — Technology and Industrial Sciences (CPGE)**  
+*Lycée Mohammed VI d'Excellence (Morocco), 2021–2023*
 
-Formation intensive de deux ans en filière **Technologie et Sciences Industrielles**, destinée à consolider et approfondir les acquis scientifiques et techniques pour la préparation aux concours d’entrée aux écoles d’ingénieurs. Le parcours combine enseignements théoriques exigeants, travaux pratiques et projets appliqués illustrant la mise en œuvre concrète des connaissances.
+Two-year intensive program in **Technology and Industrial Sciences**, designed to consolidate and deepen scientific and technical knowledge in preparation for engineering school entrance exams. The program combines demanding theoretical teachings, practical work, and applied projects demonstrating the concrete implementation of knowledge.
 
-### Objectifs du parcours
-1. Approfondir les connaissances en **mathématiques**, **physique** et **sciences industrielles** afin d’acquérir un niveau de résolution de problèmes adapté aux concours d’ingénieurs.  
-2. Maîtriser les fondamentaux de la **mécanique**, de l’**électrotechnique**, de l’**électronique** et de l’**automatique**.  
-3. Développer des compétences expérimentales (mesures, instrumentation) et analytiques (modélisation, simulation).  
-4. Réaliser et piloter des projets techniques intégrant conception, modélisation et validation expérimentale.  
-5. Se préparer aux épreuves écrites et orales des concours et aux poursuites d’études (écoles d’ingénieurs, DUT/BUT, licences spécialisées).
+### Program Objectives
+1. Deepen knowledge in **mathematics**, **physics**, and **industrial sciences** to acquire problem-solving skills appropriate for engineering entrance exams.  
+2. Master the fundamentals of **mechanics**, **electrical engineering**, **electronics**, and **automation**.  
+3. Develop experimental (measurements, instrumentation) and analytical (modeling, simulation) skills.  
+4. Carry out and manage technical projects integrating design, modeling, and experimental validation.  
+5. Prepare for written and oral entrance exams and further studies (engineering schools, DUT/BUT, specialized degrees).
 
-### Contenu et enseignements
-- **Mathématiques avancées** : analyse, algèbre linéaire, probabilités appliquées.  
-- **Physique appliquée** : mécanique du solide et des fluides, thermodynamique, électromagnétisme.  
-- **Sciences industrielles** : cinématique, résistance des matériaux, automatique, CAO/DAO.  
-- **Électrotechnique & électronique** : machines électriques, convertisseurs, électronique de puissance, capteurs.  
-- **Informatique et outils** : programmation de scripts/algorithmes, utilisation de tableurs et d’outils de simulation.  
-- **Langues & communication** : anglais technique et expression scientifique.
+### Content and Curriculum
+- **Advanced mathematics**: analysis, linear algebra, applied probabilities.  
+- **Applied physics**: solid and fluid mechanics, thermodynamics, electromagnetism.  
+- **Industrial sciences**: kinematics, material strength, automation, CAD/Drafting.  
+- **Electrical engineering & electronics**: electrical machines, converters, power electronics, sensors.  
+- **Computer science and tools**: scripting/algorithms programming, use of spreadsheets and simulation tools.  
+- **Languages & communication**: technical English and scientific expression.
 
-### Travaux pratiques et projets
-- Bancs d’essais et protocoles de mesure (courant/tension, rendements, caractérisations). 
-- Rédaction de rapports techniques, présentations orales et défense de projets devant un jury pédagogique.
+### Practical Work and Projects
+- Test benches and measurement protocols (current/voltage, efficiency, characterizations). 
+- Writing technical reports, oral presentations, and project defense before an educational jury.
 
-### Méthodes pédagogiques
-- Démarche expérimentale couplée à la modélisation mathématique et physique.  
-- Approche progressive : exercices intensifs, devoirs surveillés, colles/oraux blancs.  
-- Travail en équipe, gestion de projet et respect de livrables (planning, comptes rendus).
+### Teaching Methods
+- Experimental approach coupled with mathematical and physical modeling.  
+- Progressive approach: intensive exercises, supervised assignments, mock oral exams.  
+- Teamwork, project management, and meeting deliverables (scheduling, reports).
 
-### Compétences développées
-- Capacité d’analyse et de modélisation de systèmes physiques et technologiques.  
-- Maîtrise des outils de calcul (tableurs, scripts) et d’instrumentation.  
-- Conception et vérification expérimentale de dispositifs.  
-- Rigueur scientifique, synthèse écrite et communication orale.  
-- Préparation méthodique aux concours et autonomie de travail.
+### Skills Developed
+- Ability to analyze and model physical and technological systems.  
+- Mastery of computational tools (spreadsheets, scripts) and instrumentation.  
+- Design and experimental verification of devices.  
+- Scientific rigor, written synthesis, and oral communication.  
+- Methodical preparation for exams and autonomous work.
 
-### Résultat
-Parcours complété (2021–2023) — **Admis à l'École Centrale de Nantes**.
+### Result
+Program completed (2021–2023) — **Admitted to École Centrale de Nantes**.

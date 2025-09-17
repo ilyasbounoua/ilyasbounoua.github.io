@@ -1,13 +1,13 @@
 ---
 permalink: /non-menu-page/
-title: "Page not in menu"
+title: "Page non présente dans le menu"
 author_profile: true
 redirect_from: 
   - "/nmp/"
   - "/nmp.html"
 ---
 
-This is a page not in the menu.
+Ceci est une page qui n'est pas dans le menu.
 
 404
 ======

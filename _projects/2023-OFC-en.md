@@ -1,31 +1,31 @@
 ---
-title: "OFC : Organisateur des feux de circulation"
+title: "TLS: Traffic Light System"
 collection: projects
-category: académique
+category: academic
 permalink: /project/2023-OFC
-excerpt: "Un système intelligent de gestion des feux tricolores à l'aide d'une caméra, Raspberry Pi et Arduino"
+excerpt: "An intelligent traffic light management system using a camera, Raspberry Pi and Arduino"
 date: 2023-06-10
 venue: 'TIPE - CPGE'
 slidesurl: 'http://ilyasbounoua.github.io/files/OFC_SLIDES.pdf'
 paperurl: 'http://ilyasbounoua.github.io/files/OFC_MCOT.pdf'
-citation: 'Bounoua, Ilyas. (2023). &quot;OFC : Organisateur des feux de circulation.&quot; <i>TIPE - CPGE</i>.'
+citation: 'Bounoua, Ilyas. (2023). &quot;TLS: Traffic Light System.&quot; <i>TIPE - CPGE</i>.'
 ---
-Le projet **OFC (Organisateur des feux de circulation)** vise à optimiser la gestion des feux tricolores urbains.  
-En utilisant une caméra montée sur un boîtier rotatif, les voies d’un carrefour sont analysées afin de compter les véhicules.  
-Une carte Raspberry Pi traite ces informations et, via un algorithme, attribue la priorité à la voie la plus chargée tout en garantissant une alternance minimale.  
-Les feux sont commandés par une carte Arduino communiquant par modules nRF24L01.
+The **TLS (Traffic Light System)** project aims to optimize urban traffic light management.  
+Using a camera mounted on a rotating housing, intersection lanes are analyzed to count vehicles.  
+A Raspberry Pi processes this information and, via an algorithm, assigns priority to the busiest lane while ensuring minimum alternation.  
+The traffic lights are controlled by an Arduino board communicating via nRF24L01 modules.
 
-### Objectifs principaux
-1. Choisir et modéliser le moteur assurant la rotation du boîtier.  
-2. Asservir ce moteur en position pour orienter la caméra avec précision.  
-3. Développer un algorithme d'analyse d'image et de comparaison du trafic.  
-4. Déterminer un ordre de priorité automatique et éviter les blocages.  
-5. Concevoir le programme Arduino pour commander les feux tricolores.
+### Main Objectives
+1. Select and model the motor ensuring housing rotation.  
+2. Implement position control for precise camera orientation.  
+3. Develop an image analysis and traffic comparison algorithm.  
+4. Determine automatic priority order and prevent deadlocks.  
+5. Design the Arduino program to control traffic lights.
 
-### Réalisation
-- Études théoriques : modélisation, dimensionnement, asservissement PID.  
-- Développement de sous-programmes pour la détection et le comptage des véhicules.  
-- Conception et tests du prototype intégrant caméra, Raspberry Pi, Arduino et modules de communication sans fil.  
-- Validation expérimentale du système et comparaison simulation/réalité.
+### Implementation
+- Theoretical studies: modeling, sizing, PID control.  
+- Development of subprograms for vehicle detection and counting.  
+- Design and testing of prototype integrating camera, Raspberry Pi, Arduino and wireless communication modules.  
+- Experimental validation of the system and simulation/reality comparison.
 
-Ce travail s’inscrit dans le domaine des **Sciences Industrielles (Automatique et Génie Électrique)** et montre qu’une signalisation routière intelligente peut réduire les embouteillages tout en améliorant la sécurité et l’efficacité énergétique.
+This work falls within the field of **Industrial Sciences (Automation and Electrical Engineering)** and demonstrates that intelligent traffic signaling can reduce congestion while improving safety and energy efficiency.
