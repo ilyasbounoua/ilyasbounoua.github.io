@@ -40,6 +40,7 @@ redirect_from:
 - [**Équipier polyvalent – ANTOL (Nantes, France)**](/poste/ANTOL)  
   *Août 2024 – Janv. 2025*  
   - Service client, gestion du stress, travail en équipe  
+
 ---
 
 ## Projets
