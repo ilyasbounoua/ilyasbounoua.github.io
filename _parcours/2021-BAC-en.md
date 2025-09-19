@@ -1,7 +1,7 @@
 ---
 title: "Scientific Baccalaureate"
 collection: parcours
-category: Secondary Education
+category: Enseignement secondaire
 lang: en
 permalink: /en/parcour/2021-BAC
 excerpt: "Scientific Baccalaureate (Morocco) — Electrical Sciences and Technologies track, Honors with Distinction (2020–2021)."

@@ -1,7 +1,7 @@
 ---
 title: "TOEIC Certification"
 collection: parcours
-category: Additional Training
+category: Formations complémentaires
 lang: en
 permalink: /en/parcour/2024-TOEIC
 excerpt: "TOEIC certification obtained in 2024 with a score of 930/990 (Listening B2, Reading C1, overall level B2+)."

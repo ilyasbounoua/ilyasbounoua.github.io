@@ -1,22 +1,29 @@
 ---
 layout: archive
-title: "Expériences professionnelles"
+title: "Work Experience"
 lang: en
 permalink: /en/experiences/
 author_profile: true
 ---
+
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
+{% assign page_lang = page.lang | default: 'fr' %}
 
 <!-- New style rendering if project categories are defined -->
 {% if site.experience_category %}
   {% for category in site.experience_category  %}
     {% assign title_shown = false %}
     {% for post in site.experiences reversed %}
+      {% assign post_lang = post.lang | default: 'fr' %}
+      {% if post_lang != page_lang %}
+        {% continue %}
+      {% endif %}
+      
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -29,7 +36,9 @@ author_profile: true
   {% endfor %}
 {% else %}
   {% for post in site.experiences reversed %}
-    {% include archive-single.html %}
+    {% assign post_lang = post.lang | default: 'fr' %}
+    {% if post_lang == page_lang %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 {% endif %}
-

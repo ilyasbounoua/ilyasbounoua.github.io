@@ -1,7 +1,7 @@
 ---
 title: "Multiskilled Team Member – ANTOL"
 collection: experiences
-category: employment
+category: postes
 lang: en
 permalink: /en/poste/ANTOL
 excerpt: "Fast food experience: customer service, stress management, teamwork"

@@ -1,22 +1,27 @@
 ---
 layout: archive
-title: "Parcours académique"
+title: "Academic Background"
 lang: en
 permalink: /en/parcours/
 author_profile: true
 ---
-
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if project categories are defined -->
+{% assign page_lang = page.lang | default: 'fr' %}
+
 {% if site.parcour_category %}
   {% for category in site.parcour_category  %}
     {% assign title_shown = false %}
     {% for post in site.parcours reversed %}
+      {% assign post_lang = post.lang | default: 'fr' %}
+      {% if post_lang != page_lang %}
+        {% continue %}
+      {% endif %}
+      
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -29,6 +34,9 @@ author_profile: true
   {% endfor %}
 {% else %}
   {% for post in site.parcours reversed %}
-    {% include archive-single.html %}
+    {% assign post_lang = post.lang | default: 'fr' %}
+    {% if post_lang == page_lang %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 {% endif %}

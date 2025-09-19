@@ -1,7 +1,7 @@
 ---
 title: "University Studies"
 collection: parcours
-category: University and Grandes Écoles
+category: Université et grandes écoles
 lang: en
 permalink: /en/parcour/2023-ECN
 excerpt: "General Engineering Program at École Centrale de Nantes: DATASIM specialization (2nd year), international exchange (Semester 8) at UCLouvain, then INFOSI specialization (3rd year)."
