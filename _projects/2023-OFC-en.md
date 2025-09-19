@@ -1,7 +1,7 @@
 ---
 title: "TLS: Traffic Light System"
 collection: projects
-category: academic
+category: académique
 lang: en
 permalink: /en/project/2023-OFC
 excerpt: "An intelligent traffic light management system using a camera, Raspberry Pi and Arduino"

@@ -1,7 +1,7 @@
 ---
 title: "Observation Intern – HWM Morocco"
 collection: experiences
-category: internships
+category: stages
 lang: en
 permalink: /en/stage/2024-HWM
 excerpt: "Observation internship in a professional environment: monitoring customer interactions and participation in cross-departmental meetings"

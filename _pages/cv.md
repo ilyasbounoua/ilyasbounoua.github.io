@@ -47,7 +47,9 @@ redirect_from:
 
 <ul>
   {% for post in site.projects reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.lang == page.lang %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 </ul>
 

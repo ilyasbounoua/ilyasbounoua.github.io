@@ -1,7 +1,7 @@
 ---
 title: "SamWeight: Breast Cancer Detection Optimization via AUC Reshaping"
 collection: projects
-category: academic
+category: académique
 lang: en
 permalink: /en/project/2024-SamWeight
 excerpt: "Application of sample weighting techniques and AUC Reshaping to improve sensitivity at high specificity in mammographic classification."

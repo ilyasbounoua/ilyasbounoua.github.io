@@ -1,7 +1,7 @@
 ---
 title: "Gene Mutation Prediction via Machine Learning"
 collection: projects
-category: academic
+category: académique
 lang: en
 permalink: /en/project/2025-MaLe
 excerpt: "Development of an ensemble model to classify the active or inactive state of gene mutations from very high-dimensional data."

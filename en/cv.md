@@ -14,30 +14,30 @@ As an engineering student at Centrale Nantes, I am seeking a **6-month internshi
 
 ## Education
 
-- [**École Centrale de Nantes (France)**](/parcour/2023-ECN) - *General Engineering Program (2023–2026)*
+- [**École Centrale de Nantes (France)**](/en/parcour/2023-ECN) - *General Engineering Program (2023–2026)*
   - 2nd year: **DATASIM** option – Data, analysis, signal and image processing
   - Semester 8: Erasmus exchange – Master in Computer Science, **Université Catholique de Louvain (Belgium)**
   - 3rd year: Disciplinary option **INFOSI** – Computer Science for Information Systems
     - Professional option: **PERFECT** – Project Enhancement.
 
-- [**TOEIC Certification (2024)**](/parcour/2024-TOEIC)
+- [**TOEIC Certification (2024)**](/en/parcour/2024-TOEIC)
   *Score 930/990, C1 Level*
 
-- [**Lycée Mohammed VI d'Excellence (Morocco)**](/parcour/2021-CPGE)
+- [**Lycée Mohammed VI d'Excellence (Morocco)**](/en/parcour/2021-CPGE)
   *Preparatory Classes for Engineering Schools (Technology and Industrial Sciences) (2021–2023)*
 
-- [**Scientific Baccalaureate (Morocco)**](/parcour/2021-BAC)
+- [**Scientific Baccalaureate (Morocco)**](/en/parcour/2021-BAC)
   *Electrical Sciences and Technologies, Honors with Distinction (2020–2021)*
 
 ---
 
 ## Work Experience
 
-- [**Observation Intern – HWM Morocco (Casablanca, Morocco)**](/stage/2024-HWM)
+- [**Observation Intern – HWM Morocco (Casablanca, Morocco)**](/en/stage/2024-HWM)
   *June – July 2024*
   - Monitored customer interactions and participated in cross-departmental meetings
 
-- [**Multiskilled Team Member – ANTOL (Nantes, France)**](/poste/ANTOL)
+- [**Multiskilled Team Member – ANTOL (Nantes, France)**](/en/poste/ANTOL)
   *August 2024 – January 2025*
   - Customer service, stress management, teamwork
 
@@ -47,7 +47,12 @@ As an engineering student at Centrale Nantes, I am seeking a **6-month internshi
 
 <ul>
   {% for post in site.projects reversed %}
-    {% include archive-single-cv.html %}
+    {% assign page_lang = page.lang | default: 'fr' %}
+    {% assign post_lang = post.lang | default: 'fr' %}
+    
+    {% if post_lang == page_lang %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}
 </ul>
 
