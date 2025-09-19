@@ -17,7 +17,14 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% assign lang = page.lang | default: site.locale | default: site.lang | default: 'fr' %}
+    {% assign t = site.data.i18n[lang] %}
+
+    {% if t and t.author and t.author.bio %}
+      <p class="author__bio">{{ t.author.bio }}</p>
+    {% elsif author.bio %}
+      <p class="author__bio">{{ author.bio }}</p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
