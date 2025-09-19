@@ -2,7 +2,8 @@
 title: "Preparatory Classes"
 collection: parcours
 category: Preparatory Classes
-permalink: /parcour/2021-CPGE
+lang: en
+permalink: /en/parcour/2021-CPGE
 excerpt: "Technology and Industrial Sciences Preparatory Classes at Lycée Mohammed VI d'Excellence: intensive training in science and technology, applied projects, and preparation for engineering school entrance exams."
 date: 2021-08-24
 end_date: 2023-02-20

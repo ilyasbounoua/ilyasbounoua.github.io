@@ -2,7 +2,8 @@
 title: "TOEIC Certification"
 collection: parcours
 category: Additional Training
-permalink: /parcour/2024-TOEIC
+lang: en
+permalink: /en/parcour/2024-TOEIC
 excerpt: "TOEIC certification obtained in 2024 with a score of 930/990 (Listening B2, Reading C1, overall level B2+)."
 date: 2024-06-06
 venue: 'ETS Global — École Centrale de Nantes (France)'

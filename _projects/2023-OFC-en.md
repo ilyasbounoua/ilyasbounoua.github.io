@@ -2,7 +2,8 @@
 title: "TLS: Traffic Light System"
 collection: projects
 category: academic
-permalink: /project/2023-OFC
+lang: en
+permalink: /en/project/2023-OFC
 excerpt: "An intelligent traffic light management system using a camera, Raspberry Pi and Arduino"
 date: 2023-06-10
 venue: 'TIPE - CPGE'
