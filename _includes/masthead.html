@@ -8,7 +8,14 @@
 
           <!-- Site title (use translated site title when available) -->
           <li class="masthead__menu-item masthead__menu-item--lg persist">
-            <a href="{{ base_path }}/">{{ site.data.i18n[plang].site_title | default: site.title }}</a>
+            {% comment %}
+              Apply the same language logic to the site title link
+            {% endcomment %}
+            {% assign home_url = "/" %}
+            {% if plang == 'en' %}
+              {% assign home_url = "/en/" %}
+            {% endif %}
+            <a href="{{ base_path }}{{ home_url }}">{{ site.data.i18n[plang].site_title | default: site.title }}</a>
           </li>
 
           <!-- Single navigation loop: compute URL per language -->
