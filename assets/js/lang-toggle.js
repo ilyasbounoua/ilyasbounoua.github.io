@@ -1,6 +1,6 @@
 /* assets/js/lang-toggle.js
    Lightweight client-side language toggle.
-   - Adds data-lang on <html> (mirrors your theme toggle approach).
+   - Adds data-lang on <html>.
    - Persists selection in localStorage.
    - Replaces nodes with data-i18n="KEY".
    - Use data-i18n-attr="title|alt|placeholder" for attributes.
@@ -10,7 +10,7 @@
   const STORAGE_KEY = 'site-lang';
   const defaultLang = (navigator.language && navigator.language.startsWith('en')) ? 'en' : 'fr';
 
-  // Seed dictionary — extend with the keys you use
+  // Seed dictionary
   const i18n = {
     fr: {
       langLabel: 'FR',
@@ -29,7 +29,6 @@
   };
 
   function getLangFromPath() {
-    // Treat any path starting with /en/ as English; root or other paths => French by convention
     try {
       const p = window.location.pathname || '/';
       return p.startsWith('/en/') || p === '/en' ? 'en' : null;
