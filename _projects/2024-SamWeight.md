@@ -18,7 +18,7 @@ citation: "Bouftini, I.; Bounoua, I.; Bouchez-Delotte, Sacha. (2024). &quot;SamW
 
 # Résumé
 Les métriques classiques (AU-ROC) moyennent les performances sur toute la courbe et ne reflètent pas toujours l'importance des erreurs dans la zone de haute spécificité. SamWeight introduit une **réallocation adaptative des poids d’échantillons** — via un terme d'« boosting » appliqué aux positifs mal classés sous un seuil de spécificité élevé — afin d'optimiser la sensibilité exactement dans la région d'intérêt (ROI) de la courbe ROC.  
-Le projet s'inscrit dans un contexte de **déséquilibre de classes et de coûts élevés pour les faux négatifs**, en suivant des principes inspirés des meilleures pratiques de pondération d’échantillons et d’AUC Reshaping [<a href="#ref-1">1</a>].
+Le projet s'inscrit dans un contexte de **déséquilibre de classes et de coûts élevés pour les faux négatifs**, en suivant des principes inspirés des meilleures pratiques de pondération d’échantillons et d’AUC Reshaping.
 
 # Objectifs
 1. Mettre en œuvre l’AUC Reshaping pour privilégier la sensibilité à haute spécificité.  

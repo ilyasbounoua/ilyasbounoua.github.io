@@ -19,7 +19,7 @@ citation: "Bouftini, I.; Bounoua, I.; Bouchez-Delotte, Sacha. (2024). &quot;SamW
 
 # Abstract
 Classical metrics (AU-ROC) average performance across the entire curve and do not always reflect the importance of errors in the high-specificity region. SamWeight introduces an **adaptive reallocation of sample weights**—via a "boosting" term applied to misclassified positives under a high specificity threshold—to optimize sensitivity precisely in the region of interest (ROI) of the ROC curve.
-The project addresses **class imbalance and high costs for false negatives**, following principles inspired by best practices in sample weighting and AUC Reshaping [<a href="#ref-1">1</a>].
+The project addresses **class imbalance and high costs for false negatives**, following principles inspired by best practices in sample weighting and AUC Reshaping.
 
 # Objectives
 1. Implement AUC Reshaping to prioritize sensitivity at high specificity.
