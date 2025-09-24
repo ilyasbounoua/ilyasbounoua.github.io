@@ -30,7 +30,7 @@ Le projet s'inscrit dans un contexte de **déséquilibre de classes et de coûts
 
 ## Diagramme du pipeline
 Pipeline (prétraitement → extraction de patchs → entraînement / fine-tuning → évaluation) :  
-![Diagramme](http://ilyasbounoua.github.io/files/Diagram.svg)  
+![Diagramme](http://ilyasbounoua.github.io/files/method.png)  
 
 ## Pondération d'échantillons & AUC Reshaping
 On applique une fonction de perte modifiée qui augmente le poids des échantillons positifs mal classés en dessous d’un seuil de spécificité élevé :  

@@ -30,8 +30,8 @@ The project addresses **class imbalance and high costs for false negatives**, fo
 # Methods
 
 ## Pipeline Diagram
-Pipeline (preprocessing → patch extraction → training / fine-tuning → evaluation):
-![Diagram](http://ilyasbounoua.github.io/files/Diagram.svg)
+Pipeline (preprocessing → patch extraction → training / fine-tuning → evaluation):  
+![Diagram](http://ilyasbounoua.github.io/files/method.png)
 
 ## Sample Weighting & AUC Reshaping
 A modified loss function is applied that increases the weight of misclassified positive samples below a high specificity threshold:
