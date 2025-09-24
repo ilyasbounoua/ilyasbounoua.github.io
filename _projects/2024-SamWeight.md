@@ -9,7 +9,7 @@ venue: 'École Centrale de Nantes & Hera-Mi'
 citation: "Bouftini, I.; Bounoua, I.; Bouchez-Delotte, Sacha. (2024). &quot;SamWeight : Optimisation de la détection du cancer du sein par AUC Reshaping.&quot; <i>Projet de recherche, École Centrale de Nantes & Hera-Mi</i>."
 ---
 
-SamWeight est un projet de recherche visant à **améliorer la détection du cancer du sein** sur images mammographiques en privilégiant la sensibilité dans les régions de l'aire ROC correspondant à des niveaux de spécificité élevés. Le projet combine une technique de **pondération d’échantillons** avec des principes d’**AUC Reshaping** pour faire converger un modèle profond pré-entraîné (ResNet-22 + CBAM) vers de meilleures performances sur les faux négatifs critiques.
+[SamWeight](https://github.com/ibouftini/SamWeight2024.git) est un projet de recherche visant à **améliorer la détection du cancer du sein** sur images mammographiques en privilégiant la sensibilité dans les régions de l'aire ROC correspondant à des niveaux de spécificité élevés. Le projet combine une technique de **pondération d’échantillons** avec des principes d’**AUC Reshaping** pour faire converger un modèle profond pré-entraîné (ResNet-22 + CBAM) vers de meilleures performances sur les faux négatifs critiques.
 
 # Auteurs et affiliations
 - [Imade Bouftini (École Centrale de Nantes)](https://github.com/ibouftini)
