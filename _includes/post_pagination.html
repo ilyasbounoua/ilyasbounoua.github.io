@@ -1,16 +1,42 @@
 {% include base_path %}
 
-{% if page.previous or page.next %}
+{% assign current_lang = page.lang | default: 'fr' %}
+
+{% assign same_lang_posts = '' | split: '' %}
+{% for post in site.projects %}
+  {% assign post_lang = post.lang | default: 'fr' %}
+  {% if post_lang == current_lang %}
+    {% assign same_lang_posts = same_lang_posts | push: post %}
+  {% endif %}
+{% endfor %}
+{% assign same_lang_posts = same_lang_posts | sort: 'date' %}
+
+{% assign prev_post = nil %}
+{% assign next_post = nil %}
+{% assign found_current = false %}
+
+{% for post in same_lang_posts %}
+  {% if post.url == page.url %}
+    {% assign found_current = true %}
+  {% elsif found_current == false %}
+    {% assign prev_post = post %}
+  {% elsif found_current == true and next_post == nil %}
+    {% assign next_post = post %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if prev_post or next_post %}
   <nav class="pagination">
-    {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% if prev_post %}
+      <a href="{{ base_path }}{{ prev_post.url }}" class="pagination--pager" title="{{ prev_post.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: '<i class="fas fa-chevron-left"></i>' }}</a>
     {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: '<i class="fas fa-chevron-left"></i>' }}</a>
     {% endif %}
-    {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% if next_post %}
+      <a href="{{ base_path }}{{ next_post.url }}" class="pagination--pager" title="{{ next_post.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: '<i class="fas fa-chevron-right"></i>' }}</a>
     {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: '<i class="fas fa-chevron-right"></i>' }}</a>
     {% endif %}
   </nav>
 {% endif %}
