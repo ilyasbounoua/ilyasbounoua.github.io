@@ -4,8 +4,8 @@
 # -----------------
 en: &DEFAULT_EN
   page                       : "Page"
-  pagination_previous        : '<i class="fas fa-chevron-left"></i>'
-  pagination_next            : '<i class="fas fa-chevron-right"></i>'
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   toc_label                  : "On This Page"
@@ -350,5 +350,3 @@ zh-HK: &DEFAULT_ZH_HK
 zh-TW:
   <<: *DEFAULT_ZH_HK
 
-# Another locale
-# --------------

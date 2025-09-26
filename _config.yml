@@ -5,9 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
-lang: fr
+
 # Basic Site Settings
-locale                   : "fr-France"
+lang                     : fr
+locale                   : "fr"
 site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Portfolio académique"
 title_separator          : "-"

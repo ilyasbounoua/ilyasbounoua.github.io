@@ -1,4 +1,5 @@
 {% include base_path %}
+{% include set_locale.html %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -43,7 +44,7 @@
         
         {% elsif post.date %}
           <p class="page__date">
-            <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Date:" }}</strong>
+            <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site_locale].date_label | default: "Date:" }}</strong>
             <time datetime="{{ post.date | default: '1900-01-01' | date_to_xmlschema }}">
               {{ post.date | default: '1900-01-01' | date: "%d/%m/%Y" }}
             </time>{% if post.end_date %} - 

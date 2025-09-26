@@ -3,9 +3,10 @@ layout: compress
 ---
 
 {% include base_path %}
+{% include set_locale.html %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<html lang="{{ site_locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
