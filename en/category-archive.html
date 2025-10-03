@@ -6,13 +6,87 @@ title: "Posts by Category"
 author_profile: true
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
 
-{% for category in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
+{% include base_path %}
+
+{% assign site_locale = page.lang | default: site.lang | default: 'fr' %}
+
+{% assign all_posts = '' | split: '' %}
+{% assign all_posts = all_posts | concat: site.parcours %}
+{% assign all_posts = all_posts | concat: site.experiences %}
+{% assign all_posts = all_posts | concat: site.projects %}
+
+{%- assign groups = "parcour_category,experience_category,project_category" | split: "," -%}
+
+<nav class="categories-nav">
+  <ul>
+  {% for group_key in groups %}
+    {% assign group_obj = site[group_key] %}
+    {% if group_obj %}
+      {% for pair in group_obj %}
+        {% assign raw_key = pair[0] %}
+        {% assign raw_meta = pair[1] %}
+        
+        {% assign localized_title = raw_key %}
+        {% if site.data.i18n and site.data.i18n[site_locale] and site.data.i18n[site_locale].categories and site.data.i18n[site_locale].categories[group_key] and site.data.i18n[site_locale].categories[group_key][raw_key] %}
+          {% assign localized_title = site.data.i18n[site_locale].categories[group_key][raw_key] %}
+        {% elsif raw_meta.title %}
+          {% assign localized_title = raw_meta.title %}
+        {% endif %}
+
+        {% assign slug = raw_key | slugify %}
+        <li><a href="#{{ slug }}">{{ localized_title }}</a></li>
+      {% endfor %}
+    {% endif %}
   {% endfor %}
+  </ul>
+</nav>
+
+{% for group_key in groups %}
+  {% assign group_obj = site[group_key] %}
+  {% if group_obj %}
+    {% for pair in group_obj %}
+      {% assign raw_key = pair[0] %}
+      {% assign raw_meta = pair[1] %}
+      {% assign slug = raw_key | slugify %}
+
+      {% assign localized_title = raw_key %}
+      {% if site.data.i18n and site.data.i18n[site_locale] and site.data.i18n[site_locale].categories and site.data.i18n[site_locale].categories[group_key] and site.data.i18n[site_locale].categories[group_key][raw_key] %}
+        {% assign localized_title = site.data.i18n[site_locale].categories[group_key][raw_key] %}
+      {% elsif raw_meta.title %}
+        {% assign localized_title = raw_meta.title %}
+      {% endif %}
+
+      {% assign match_count = 0 %}
+      {% for p in all_posts %}
+        {% assign p_lang = p.lang | default: 'fr' %}
+        {% if p_lang == site_locale and p.category == raw_key %}
+          {% assign match_count = match_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+
+      {% if match_count > 0 %}
+        <section id="{{ slug }}" class="category-block">
+          <h2 class="archive__subtitle">{{ localized_title }}</h2>
+
+          <div class="list__item">
+            {% for p in all_posts %}
+              {% assign p_lang = p.lang | default: 'fr' %}
+              {% if p_lang == site_locale and p.category == raw_key %}
+                <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+                  <h3 class="archive__item-title" itemprop="headline">
+                    <a href="{{ base_path }}{{ p.url }}" rel="permalink">{{ p.title }}</a>
+                  </h3>
+                  {% if p.excerpt %}
+                    <p class="archive__item-excerpt" itemprop="description">{{ p.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+                  {% endif %}
+                </article>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+
+    {% endfor %}
+  {% endif %}
 {% endfor %}
