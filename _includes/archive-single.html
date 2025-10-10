@@ -60,32 +60,42 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
+    {% if post.paperurl %}
+      {% assign paperfile = post.paperurl | split: "/" | last %}
+    {% endif %}
+    {% if post.slidesurl %}
+      {% assign slidesfile = post.slidesurl | split: "/" | last %}
+    {% endif %}
+    {% if post.bibtexurl %}
+      {% assign bibtexfile = post.bibtexurl | split: "/" | last %}
+    {% endif %}
+    
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Document</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Document II</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{{ paperfile }}</a> | <a href="{{ post.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ post.bibtexurl }}">{{ bibtexfile }}</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Document</a> | <a href="{{ post.slidesurl }}">Slides</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{{ paperfile }}</a> | <a href="{{ post.slidesurl }}">{{ slidesfile }}</a></p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Document</a> | <a href="{{ post.bibtexurl }}">Document II</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{{ paperfile }}</a> | <a href="{{ post.bibtexurl }}">{{ bibtexfile }}</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Document</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">{{ paperfile }}</a></p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl}}">Document II</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ post.bibtexurl}}">{{ bibtexfile }}</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Slides</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">{{ slidesfile }}</a></p>
     {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Document II</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">{{ bibtexfile }}</a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href=" {{ post.paperurl }} ">Document</a> | <a href="{{ post.bibtexurl }}">Document II</a></p>
+      <p><a href=" {{ post.paperurl }} ">{{ paperfile }}</a> | <a href="{{ post.bibtexurl }}">{{ bibtexfile }}</a></p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Document</a></p>
+      <p><a href=" {{ post.paperurl }} ">{{ paperfile }}</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Document II</a></p>
+      <p><a href="{{ post.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ post.bibtexurl }}">{{ bibtexfile }}</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Slides</a></p>
+      <p><a href="{{ post.slidesurl }}">{{ slidesfile }}</a></p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Document II</a></p>
+      <p><a href="{{ post.bibtexurl }}">{{ bibtexfile }}</a></p>
     {% endif %}
 
   </article>
