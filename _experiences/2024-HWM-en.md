@@ -8,8 +8,8 @@ excerpt: "Observation internship in a professional environment: monitoring custo
 date: 2024-06-24
 end_date: 2024-07-24
 venue: 'HWM Morocco - Casablanca, Morocco'
-slidesurl: 'http://ilyasbounoua.github.io/files/HWM_Slides.pdf'
-paperurl: 'http://ilyasbounoua.github.io/files/HWM_Report.pdf'
+slidesurl: 'http://ilyasbounoua.github.io/files/en/HWM_Slides.pdf'
+paperurl: 'http://ilyasbounoua.github.io/files/en/HWM_Report.pdf'
 citation: 'Bounoua, Ilyas. (2024). "Observation Internship – HWM Morocco".'
 ---
 During my **observation internship** at **HWM Morocco**, I discovered the overall functioning of a company specialized in workspace design and professional furniture.  
