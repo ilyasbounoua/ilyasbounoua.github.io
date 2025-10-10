@@ -60,25 +60,25 @@ layout: default
         {% endif %}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.slidesurl }}">{{ slidesfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.slidesurl }}">{{ slidesfile }}</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.paperurl }}">{{ paperfile }}</a></p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">{{ slidesfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.slidesurl }}">{{ slidesfile }}</a></p>
         {% elsif page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">{{ slidesfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
         {% elsif page.paperurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">{{ paperfile }}</a> | <a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
         {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">{{ bibtexfile }}</a></p>
         {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          <p style="font-size: smaller">&#10077; {{ page.citation }}</p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">{{ slidesfile }}</a></p>
         {% elsif page.bibtexurl %}
