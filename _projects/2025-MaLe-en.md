@@ -7,7 +7,7 @@ permalink: /en/project/2025-MaLe
 excerpt: "Development of an ensemble model to classify the active or inactive state of gene mutations from very high-dimensional data."
 date: 2025-05-04
 venue: 'University Project – UCLouvain'
-paperurl: 'http://ilyasbounoua.github.io/files/MaLe_Rapport.pdf'
+paperurl: 'http://ilyasbounoua.github.io/files/en/MaLe_Report.pdf'
 citation: 'Ilyas Bounoua (2025). &quot;Gene Mutation Prediction via Machine Learning.&quot; <i>LINFO2262 – Competition Project</i>.'
 ---
 

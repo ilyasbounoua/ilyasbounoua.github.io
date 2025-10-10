@@ -7,7 +7,7 @@ permalink: /en/project/2023-OFC
 excerpt: "An intelligent traffic light management system using a camera, Raspberry Pi and Arduino"
 date: 2023-06-10
 venue: 'TIPE - CPGE'
-slidesurl: 'http://ilyasbounoua.github.io/files/OFC_SLIDES.pdf'
+slidesurl: 'http://ilyasbounoua.github.io/files/en/OFC_Slides.pdf'
 paperurl: 'http://ilyasbounoua.github.io/files/OFC_MCOT.pdf'
 citation: 'Bounoua, Ilyas. (2023). &quot;TLS: Traffic Light System.&quot; <i>TIPE - CPGE</i>.'
 ---
