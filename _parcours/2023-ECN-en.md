@@ -8,8 +8,8 @@ excerpt: "General Engineering Program at École Centrale de Nantes: DATASIM spec
 date: 2023-09-01
 end_date: 2026-09-30
 venue: 'École Centrale de Nantes (France) - Université Catholique de Louvain (Belgium)'
-paperurl: 'http://ilyasbounoua.github.io/files/en/Ei2&Ei3-OPTIONS_EN.pdf'
-bibtexurl: 'http://ilyasbounoua.github.io/files/en/Rapport_SERE_EN.pdf'
+paperurl: 'http://ilyasbounoua.github.io/files/en/Ei2&Ei3-OPTIONS.pdf'
+bibtexurl: 'http://ilyasbounoua.github.io/files/en/Report_SERE.pdf'
 ---
 # Academic Path — École Centrale de Nantes / UCLouvain
 
@@ -35,7 +35,7 @@ Official documents for my specializations (DATASIM / INFOSI) are available via t
 - Data preprocessing and analysis, ML experimentation pipelines, model validation and evaluation, technical communication.
 
   
-<small><a href="/files/en/DATASIM_EN.pdf" target="_blank" rel="noopener">Engineering Program — DATASIM (PDF)</a></small>
+<small><a href="/files/en/DATASIM.pdf" target="_blank" rel="noopener">Engineering Program — DATASIM (PDF)</a></small>
 
 ---
 
@@ -53,7 +53,7 @@ Official documents for my specializations (DATASIM / INFOSI) are available via t
 - Development of an academic network and awareness of applied research challenges.
   
 
-<small><a href="/files/en/Rapport_SERE_EN.pdf" target="_blank" rel="noopener">SERE Report — S8 Mobility (PDF)</a></small>
+<small><a href="/files/en/Report_SERE.pdf" target="_blank" rel="noopener">SERE Report — S8 Mobility (PDF)</a></small>
 
 ---
 
@@ -76,7 +76,7 @@ Official documents for my specializations (DATASIM / INFOSI) are available via t
 **Acquired Skills**
 - Software architecture, database design, requirements engineering, testing & deployment, operational security.
   
-<small><a href="/files/en/INFOSI_EN.pdf" target="_blank" 
+<small><a href="/files/en/INFOSI.pdf" target="_blank" 
 rel="noopener">Engineering Program — INFOSI (PDF)</a></small>
 
 ---
@@ -104,7 +104,7 @@ rel="noopener">Engineering Program — INFOSI (PDF)</a></small>
 **Acquired Skills**
 - Governance and steering of complex projects, program direction, budgeting and financial argumentation, team management and change management, institutional communication and client relations.
 
-<small><a href="/files/en/PERFECT_EN.pdf" target="_blank" 
+<small><a href="/files/en/PERFECT.pdf" target="_blank" 
 rel="noopener">Engineering Program — OP PERFECT (PDF)</a></small> 
 
 ---
