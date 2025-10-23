@@ -21,9 +21,4 @@ Actuellement en troisième année du cursus ingénieur généraliste (options DA
 
 ---
 
-### Objectif
-Motivé par les **défis techniques** et la **transformation digitale**, je souhaite rejoindre une équipe dynamique afin d'appliquer mes compétences et d’apprendre auprès de professionnels du domaine.
-
----
-
 Vous pouvez naviguer dans les différentes sections du site pour en savoir plus sur mon profil, mes projets et mes expériences.

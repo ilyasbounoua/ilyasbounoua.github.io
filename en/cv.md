@@ -10,8 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-As an engineering student at Centrale Nantes, I am seeking a **6-month internship starting in April 2026** in the field of Information Systems. Motivated by technical challenges and digital transformation, I aim to contribute to the design and optimization of your IT infrastructure.
-
 ## Education
 
 - [**École Centrale de Nantes (France)**](/en/parcour/2023-ECN) - *General Engineering Program (2023–2026)*

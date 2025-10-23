@@ -22,9 +22,4 @@ Currently in my third year of the general engineering program (DATASIM and INFOS
 
 ---
 
-### Objective
-Driven by **technical challenges** and **digital transformation**, I aim to join a dynamic team to apply my skills and learn from industry professionals.
-
----
-
 You can navigate through the different sections of the site to learn more about my profile, projects, and experiences.
