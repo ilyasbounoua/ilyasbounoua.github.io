@@ -81,6 +81,8 @@ screen.orientation.addEventListener("change", function () {
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
+  var label = $(this).hasClass('close') ? $(this).attr('data-nav-close') : $(this).attr('data-nav-open');
+  $(this).attr('aria-label', label);
 });
 
 updateNav();

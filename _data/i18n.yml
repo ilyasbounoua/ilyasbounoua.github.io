@@ -18,6 +18,7 @@ fr:
     parcours: "Parcours académique"
     cv: "CV"
     toggle_navigation: "Activer la navigation"
+    close_navigation: "Fermer la navigation"
 
   categories:
     parcour_category:
@@ -54,6 +55,7 @@ en:
     parcours: "Academic Background"
     cv: "CV"
     toggle_navigation: "Toggle navigation"
+    close_navigation: "Close navigation"
 
   categories:
     parcour_category:

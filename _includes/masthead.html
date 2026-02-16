@@ -5,7 +5,12 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button type="button" aria-label="{{ site.data.i18n[plang].navigation.toggle_navigation | default: 'Toggle navigation' }}"><div class="navicon" ></div></button>
+        <button type="button" 
+          data-nav-open="{{ site.data.i18n[plang].navigation.toggle_navigation | default: 'Toggle navigation' }}" 
+          data-nav-close="{{ site.data.i18n[plang].navigation.close_navigation | default: 'Close navigation' }}" 
+          aria-label="{{ site.data.i18n[plang].navigation.toggle_navigation | default: 'Toggle navigation' }}">
+          <div class="navicon" ></div>
+        </button>
         <ul class="visible-links">
 
           <!-- Site title (use translated site title when available) -->
