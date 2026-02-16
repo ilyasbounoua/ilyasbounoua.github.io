@@ -13,7 +13,7 @@ Actuellement en troisième année du cursus ingénieur généraliste (options DA
 
 ---
 
-### Ce que vous trouverez ici
+## Ce que vous trouverez ici
 - **Parcours académique :** mon itinéraire à Centrale Nantes et à l’Université Catholique de Louvain (Erasmus)  
 - **Projets et expériences :** contributions techniques, missions en entreprise et projets étudiants  
 - **Compétences :** programmation (Python, C++), bases de données, outils collaboratifs  

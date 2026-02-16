@@ -14,7 +14,7 @@ Currently in my third year of the general engineering program (DATASIM and INFOS
 
 ---
 
-### What you will find here
+## What you will find here
 - **Academic background:** my journey at Centrale Nantes and at the Université Catholique de Louvain (Erasmus)  
 - **Projects and experiences:** technical contributions, internships, and student projects  
 - **Skills:** programming (Python, C++), databases, collaborative tools  
