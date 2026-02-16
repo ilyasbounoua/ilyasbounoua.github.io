@@ -17,6 +17,7 @@ fr:
     experiences: "Expériences professionnelles"
     parcours: "Parcours académique"
     cv: "CV"
+    toggle_navigation: "Activer la navigation"
 
   categories:
     parcour_category:
@@ -52,6 +53,7 @@ en:
     experiences: "Work Experience"
     parcours: "Academic Background"
     cv: "CV"
+    toggle_navigation: "Toggle navigation"
 
   categories:
     parcour_category:
