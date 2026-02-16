@@ -181,7 +181,7 @@
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: var(--global-masthead-link-color);
+    color: var(--global-text-color);
     text-decoration: none;
 
     &:hover {
@@ -195,10 +195,16 @@
     right: 0;
     padding: 0 0.5rem;
     border: 0;
-    background-color: var(--global-base-color);
-    color: #fff;
+    background-color: transparent;
+    color: var(--global-text-color);
     cursor: pointer;
     z-index: 100;
+
+    .navicon,
+    .navicon:before,
+    .navicon:after {
+      background-color: var(--global-text-color);
+    }
   }
 
   .visible-links {
