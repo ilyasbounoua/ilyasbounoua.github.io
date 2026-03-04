@@ -1,7 +1,8 @@
 ---
 title: "Coup de Feu: Interactive Assistance and 'Hands-free' Kitchen Interface"
 collection: projects
-category: academic
+category: académique
+lang: en
 permalink: /en/project/2026-CDF
 excerpt: "Developing an Android application with Jetpack Compose to synchronize kitchen brigades through contactless interactions."
 date: 2026-03-16
