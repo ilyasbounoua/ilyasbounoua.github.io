@@ -12,31 +12,10 @@ author_profile: true
 {% include base_path %}
 {% assign page_lang = page.lang | default: 'fr' %}
 
-<!-- New style rendering if project categories are defined -->
-{% if site.experience_category %}
-  {% for category in site.experience_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.experiences reversed %}
-      {% assign post_lang = post.lang | default: 'fr' %}
-      {% if post_lang != page_lang %}
-        {% continue %}
-      {% endif %}
-      
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <!--<h2>{{ category[1].title }}</h2><hr />-->
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.experiences reversed %}
-    {% assign post_lang = post.lang | default: 'fr' %}
-    {% if post_lang == page_lang %}
-      {% include archive-single.html %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
+{% assign sorted_experiences = site.experiences | sort: 'date' | reverse %}
+{% for post in sorted_experiences %}
+  {% assign post_lang = post.lang | default: 'fr' %}
+  {% if post_lang == page_lang %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

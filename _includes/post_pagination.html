@@ -1,43 +1,46 @@
 {% include base_path %}
 {% include set_locale.html %}
 
-{% assign current_lang = page.lang | default: 'fr' %}
+{% if page.collection %}
+  {% assign current_lang = page.lang | default: 'fr' %}
+  {% assign collection = site[page.collection] %}
 
-{% assign same_lang_posts = '' | split: '' %}
-{% for post in site.projects %}
-  {% assign post_lang = post.lang | default: 'fr' %}
-  {% if post_lang == current_lang %}
-    {% assign same_lang_posts = same_lang_posts | push: post %}
-  {% endif %}
-{% endfor %}
-{% assign same_lang_posts = same_lang_posts | sort: 'date' %}
-
-{% assign prev_post = nil %}
-{% assign next_post = nil %}
-{% assign found_current = false %}
-
-{% for post in same_lang_posts %}
-  {% if post.url == page.url %}
-    {% assign found_current = true %}
-  {% elsif found_current == false %}
-    {% assign prev_post = post %}
-  {% elsif found_current == true and next_post == nil %}
-    {% assign next_post = post %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% if prev_post or next_post %}
-  <nav class="pagination">
-    {% if prev_post %}
-      <a href="{{ base_path }}{{ prev_post.url }}" class="pagination--pager" title="{{ prev_post.title | markdownify | strip_html }}">{{ site.data.ui-text[site_locale].pagination_previous | default: "Previous" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site_locale].pagination_previous | default: "Previous" }}</a>
+  {% assign same_lang_posts = '' | split: '' %}
+  {% for post in collection %}
+    {% assign post_lang = post.lang | default: 'fr' %}
+    {% if post_lang == current_lang %}
+      {% assign same_lang_posts = same_lang_posts | push: post %}
     {% endif %}
-    {% if next_post %}
-      <a href="{{ base_path }}{{ next_post.url }}" class="pagination--pager" title="{{ next_post.title | markdownify | strip_html }}">{{ site.data.ui-text[site_locale].pagination_next | default: "Next" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site_locale].pagination_next | default: "Next" }}</a>
+  {% endfor %}
+  {% assign same_lang_posts = same_lang_posts | sort: 'date' %}
+
+  {% assign prev_post = nil %}
+  {% assign next_post = nil %}
+  {% assign found_current = false %}
+
+  {% for post in same_lang_posts %}
+    {% if post.url == page.url %}
+      {% assign found_current = true %}
+    {% elsif found_current == false %}
+      {% assign prev_post = post %}
+    {% elsif found_current == true and next_post == nil %}
+      {% assign next_post = post %}
+      {% break %}
     {% endif %}
-  </nav>
+  {% endfor %}
+
+  {% if prev_post or next_post %}
+    <nav class="pagination">
+      {% if prev_post %}
+        <a href="{{ base_path }}{{ prev_post.url }}" class="pagination--pager" title="{{ prev_post.title | markdownify | strip_html }}">{{ site.data.ui-text[site_locale].pagination_previous | default: "Previous" }}</a>
+      {% else %}
+        <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site_locale].pagination_previous | default: "Previous" }}</a>
+      {% endif %}
+      {% if next_post %}
+        <a href="{{ base_path }}{{ next_post.url }}" class="pagination--pager" title="{{ next_post.title | markdownify | strip_html }}">{{ site.data.ui-text[site_locale].pagination_next | default: "Next" }}</a>
+      {% else %}
+        <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site_locale].pagination_next | default: "Next" }}</a>
+      {% endif %}
+    </nav>
+  {% endif %}
 {% endif %}

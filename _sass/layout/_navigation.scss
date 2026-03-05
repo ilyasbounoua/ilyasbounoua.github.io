@@ -151,7 +151,8 @@
     }
 
     &.disabled {
-      color: var(--global-text-color);
+      color: var(--global-text-color-light);
+      opacity: 0.5;
       pointer-events: none;
       cursor: not-allowed;
     }
