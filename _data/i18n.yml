@@ -1,5 +1,5 @@
 fr:
-  site_title: "Portfolio académique"
+  site_title: "Portfolio"
   description: "projets, compétences et expériences au service de l’ingénierie numérique."
   footer: "© 2025 Bounoua, Propulsé par Jekyll & AcademicPages."
   url: "https://ilyasbounoua.github.io"
@@ -36,7 +36,7 @@ fr:
       académique: "Projets académiques"
 
 en:
-  site_title: "Academic Portfolio"
+  site_title: "Portfolio"
   description: "projects, skills, and experiences in the service of digital engineering."
   footer: "© 2025 Bounoua, Powered by Jekyll & AcademicPages."
   url: "https://ilyasbounoua.github.io"

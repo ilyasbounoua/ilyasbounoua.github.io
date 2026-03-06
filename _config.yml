@@ -10,7 +10,7 @@
 lang                     : fr
 locale                   : "fr"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Portfolio académique"
+title                    : "Portfolio"
 title_separator          : "-"
 name                     : &name "Bounoua"
 description              : &description "projets, compétences et expériences au service de l’ingénierie numérique."
