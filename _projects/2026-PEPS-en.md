@@ -1,5 +1,5 @@
 ---
-title: "Macaw Welfare Interactive System (Completed Project)"
+title: "PEPs: Macaw Welfare Interactive System"
 collection: projects
 category: académique
 lang: en
@@ -14,7 +14,7 @@ citation: "Ilyas Bounoua, Clément Vazeille, et al. (2026). &quot;Interactive Sy
 
 The PEP'S project (Planète Sauvage Enrichment Project) provides an industrialized web platform designed to supervise interactive modules deployed in the field to enhance macaw welfare. Initially conceived as a local prototype, the system has evolved into a robust architecture deployed on an external server, enabling centralized sound content management and real-time collection of behavioral interactions.
 
-## Information System (IS) Objectives
+## Information System Objectives
 1. **Real-time Supervision**: Monitoring module status, including battery levels, connectivity status, and IP addresses, via a reactive dashboard.
 2. **Multi-profile and Multi-species Management**: A tailored interface for administrators, researchers, and caretakers, with a scope extended to include dolphins.
 3. **Industrialization**: Transitioning from a local application base to a fully containerized system capable of supporting daily professional operations.
