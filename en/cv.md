@@ -31,6 +31,10 @@ redirect_from:
 
 ## Work Experience
 
+- [**Full-Stack Software Engineer Intern – Padoa (Paris, France)**](/en/stage/2026-PADOA)  
+  *April – September 2026*  
+  - Full-Stack development (Angular, ElasticSearch), duplicate detection via event-driven architecture
+
 - [**Observation Intern – HWM Morocco (Casablanca, Morocco)**](/en/stage/2024-HWM)
   *June – July 2024*
   - Monitored customer interactions and participated in cross-departmental meetings
