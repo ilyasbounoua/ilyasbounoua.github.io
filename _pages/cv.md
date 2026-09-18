@@ -30,6 +30,9 @@ redirect_from:
 
 ## Expériences professionnelles
 
+- [**Stagiaire Ingénieur Logiciel Full-Stack – Padoa (Paris, France)**](/stage/2026-PADOA)  
+  *Avril – Sept. 2026*  
+  - Développement Full-Stack (Angular, ElasticSearch), détection de doublons via architecture événementielle
 
 - [**Stagiaire d’observation – HWM Maroc (Casablanca, Maroc)**](/stage/2024-HWM)  
   *Juin – Juil. 2024*  
